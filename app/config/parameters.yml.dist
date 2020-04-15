@@ -5,11 +5,11 @@ parameters:
     database_user: root
     database_password: 
 
-    database_host_prod: ec2-79-125-8-105.eu-west-1.compute.amazonaws.com
+    database_host_prod: ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
     database_port_prod: 5432
-    database_name_prod: dbvmhhpl1i9u9f
-    database_user_prod: nvrnfmmcevyqqv
-    database_password_prod: 1ab819922ae95cd26976c345d7dbcf9df298990676a5c98fb16cd03fb8962049
+    database_name_prod: dc3o9u720sdqoj
+    database_user_prod: eptluorbexwymp
+    database_password_prod: 299df3bedc0a8b3992034c0c2831c60052760de78cb60925ca75a1029d88cc6a
     database_url: ~
 
     database_driver_mandanta:   pdo_mysql
@@ -27,18 +27,18 @@ parameters:
     database_password_mandantb: 
 
     database_driver_mandanta_prod: pdo_mysql
-    database_host_mandanta_prod: ec2-79-125-124-30.eu-west-1.compute.amazonaws.com
+    database_host_mandanta_prod: ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
     database_port_mandanta_prod: 5432
-    database_name_mandanta_prod: d7r4n1aocnidc4
-    database_user_mandanta_prod: djyharcaolmfqi
-    database_password_mandanta_prod: 76c0e3c3dc28f29820161229b9a70159a695390f632e04ebcab2e927ff778596
+    database_name_mandanta_prod: dhp35dtqj73u6
+    database_user_mandanta_prod: lgthuxxcimvxqr
+    database_password_mandanta_prod: 44d74579953aad76a9ead46bb88bfe5a5ace4f2b7a34079e811147272c1eab23
 
     database_driver_mandantb_prod: pdo_mysql
-    database_host_mandantb_prod: ec2-79-125-124-30.eu-west-1.compute.amazonaws.com
+    database_host_mandantb_prod: ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
     database_port_mandantb_prod: 5432
-    database_name_mandantb_prod: daqg1th4qr31b7
-    database_user_mandantb_prod: safweaqfrneezg
-    database_password_mandantb_prod: 346d80bcfc1cf6e2b65aab37851df2a473a292fcd2ff9e95f951d9752c56b62e
+    database_name_mandantb_prod: d717inn7eq4qk1
+    database_user_mandantb_prod: gafrauzjzqxgag
+    database_password_mandantb_prod: 7b626d03d6de86b77f7050b82de5fdd706ad4528fd30baba7801684cd4a77a1f
 
 
     mailer_transport: smtp
