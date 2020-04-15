@@ -203,9 +203,9 @@ php bin/console fos:user:create name test@example.com password  (Utilisation du 
 
 php bin/console fos:user:promote user ROLE_ADMIN (Afin de vous logger sur l'interface admin)
 
-Page de login de l'admin interface ==> http://localhost/easyadmin-master/web/app_dev.php/login
+Page de login de l'admin interface ==> http://localhost/symfony-easyadmin-heroku/web/app_dev.php/login
 
-Page de front interface ==> http://localhost/easyadmin-master/web/app_dev.php/vertingo-website-introduction
+Page de front interface ==> http://localhost/symfony-easyadmin-heroku/web/app_dev.php/vertingo-website-introduction
 ```
 ================================================================================
 
