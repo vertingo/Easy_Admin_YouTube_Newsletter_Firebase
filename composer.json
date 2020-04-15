@@ -83,7 +83,8 @@
     "sonata-project/classification-bundle": "^3.7",
     "sonata-project/media-bundle": "^3.16",
     "stfalcon/tinymce-bundle": "dev-master",
-    "doctrine/data-fixtures": "dev-master"
+    "doctrine/data-fixtures": "dev-master",
+    "doctrine/doctrine-fixtures-bundle": "2.2.*"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.8 || ^5.0",
