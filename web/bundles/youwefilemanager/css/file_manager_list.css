@@ -1,0 +1,593 @@
+/*
+ * Basic HTML styles
+ */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/**
+ * FileManager Main
+ */
+#FileManagerContainer {
+    height: 100%;
+    width: 100%;
+}
+
+#FileManagerContainer.popup {
+    font-size: 13px;
+    overflow: hidden;
+    height: 490px;
+}
+
+#FileManagerContainer > form {
+    height: 100%;
+    width: 100%;
+}
+
+/**
+ * FileManager LIST
+ */
+#FileManagerContainer .FileManagerList {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#FileManagerContainer .FileManagerList .FileManagerHead div {
+    float: left;
+    height: 100%;
+}
+
+#FileManagerContainer .FileManagerList .FileManagerHead div > span {
+    padding-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#FileManagerContainer .FileManagerHead svg {
+    width: 45px;
+    height: 45px;
+}
+
+#FileManagerContainer .FileManagerHead svg path.svg-text {
+    fill: #000000;
+}
+
+#FileManagerContainer .FileManagerHead svg path.svg-logo {
+    fill: #EB1946;
+}
+
+#FileManagerContainer .FileManagerList .FileManagerHead {
+    background: #ddd;
+    font-size: 16px;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 2;
+    height: 65px;
+}
+
+#FileManagerContainer .FileManagerList .panel-actions .panel-body .btn {
+    padding: 1px 5px;
+    margin-bottom: 2px;
+}
+
+#FileManagerContainer .FileManagerList .panel-items {
+    height: 100%;
+    overflow: auto;
+}
+
+#FileManagerContainer .FileManagerList .panel-items .panel-heading .btn {
+    padding: 1px 5px;
+    margin-bottom: 2px;
+    margin-top: -5px;
+}
+
+#FileManagerContainer .FileManagerList .yw_file_manager_directory_line {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+#FileManagerContainer .FileManagerList .yw_file_manager_directory_line .toggleIcon {
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+    left: 8px;
+    top: 5px;
+}
+
+#FileManagerContainer .FileManagerList span.yw_file_manager_item_dir {
+    cursor: pointer;
+}
+
+#FileManagerContainer .FileManagerList span.yw_file_manager_dir {
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px 10px 25px;
+}
+
+#FileManagerContainer .FileManagerList .droppable-highlight {
+    background-color: rgba(185, 229, 255, 0.52);
+}
+
+.btn[disabled], fieldset[disabled] .btn {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .35;
+}
+
+/**
+ * FileManager DIRECTORY
+ */
+#FileManagerContainer .FileManagerListDirs {
+    background: #fafafa;
+    border-right: 1px solid #93B9FF;
+    width: 320px;
+    height: calc(100% - 65px);
+    float: left;
+}
+
+#FileManagerContainer.popup .FileManagerListDirs {
+    margin-right: 3px;
+    width: 250px;
+}
+
+#FileManagerContainer .FileManagerListDirs > div > div.panel {
+    margin-right: 2px;
+}
+
+#FileManagerContainer .FileManagerListDirs > #Dirs > div > div.panel-body {
+    overflow: auto;
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page,
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_item_dir {
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+#FileManagerContainer .FileManagerListDirs li.dir_active > span > span.yw_file_manager_dir {
+    background-color: #f1f1f1;
+}
+
+#FileManagerContainer .FileManagerListDirs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 15px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#FileManagerContainer .FileManagerListDirs .panel-body > ul {
+    margin: 0;
+    padding: 0;
+}
+
+#FileManagerContainer .FileManagerListDirs span.toggleDir i.fa-caret-right {
+    margin-left: 5px;
+    padding-right: 2px;
+}
+
+#FileManagerContainer .FileManagerListDirs span.toggleDir i.fa-caret-down {
+    margin-right: -1px;
+}
+
+#FileManagerContainer .FileManagerListDirs span.noToggle {
+    padding-left: 13px;
+}
+
+#FileManagerContainer .FileManagerListDirs a {
+    padding: 1px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#Dirs {
+    overflow: auto;
+    max-height:100%;
+    margin-right: -2px;
+}
+
+#Dirs .space-fill {
+    height: 100%;
+}
+
+.panel-default > .panel-heading {
+    border: 0;
+    border-radius: 0;
+}
+
+#Dirs .panel-default > .panel-heading {
+    height: 54px;
+}
+
+#Dirs .space-fill,
+#FileManagerContainer .FileManagerListDirs li:not(.dir_active) > span > span.yw_file_manager_dir {
+    /*border-right: 1px solid;*/
+}
+
+#FileManagerContainer .FileManagerListDirs li.dir_active > span > span.yw_file_manager_dir,
+#FileManagerContainer .FileManagerListDirs li.dir_active > span i {
+    color: #333333;
+}
+
+#FileManagerContainer .FileManagerListDirs li.dir_active > span > span.yw_file_manager_dir {
+    border: 1px solid;
+    border-right-width: 0;
+    background: #fff;
+}
+
+#FileManagerContainer .FileManagerListDirs li.dir_active > span > span.yw_file_manager_dir:after {
+    content: "";
+}
+
+#FileManagerContainer .FileManagerListDirs ul:first-child > li:first-child.dir_active > span > span.yw_file_manager_dir {
+    border-right-width: 0;
+    border-top-width: 0;
+}
+
+#FileManagerContainer .FileManagerListDirs li > span:hover {
+    color: #333333;
+    background-color: #fafafa;
+}
+
+/**
+ * FileManager Files
+ */
+#FileManagerContainer .FileManagerListItems {
+    height:  calc(100% - 65px);
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#Items .panel-actions {
+    margin-bottom: 0;
+}
+
+#FileManagerContainer .FileManagerListItems #file-manager-table-wrapper {
+    min-height: 360px;
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    position: absolute;
+}
+
+#file-manager-table-wrapper {
+    padding: 0 20px;
+}
+
+#file-manager-table-wrapper.file_body_block {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+#FileManagerContainer.popup .FileManagerListItems #file-manager-table-wrapper {
+    overflow: auto;
+    height: 360px;
+    border-top: 1px solid #ddd;
+}
+
+#FileManagerContainer .FileManagerListItems .file-manager-table-current-path {
+    background-color: #efefef;
+    padding: 3px;
+    font-size: 9pt;
+    color: #aaa;
+}
+
+#FileManagerContainer .FileManagerListItems > #Items {
+    width: 100%;
+    float: left;
+    cursor: default;
+}
+
+div.block_row {
+    float: left;
+    width: 120px;
+    height: 95px;
+    font-size: 13px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+div.block_row:hover {
+    border-radius: 8px;
+    background-color: rgb(238, 238, 238);
+}
+
+#FileManagerContainer .FileManagerListItems .item_selected:hover,
+div.block_row.item_selected:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#FileManagerContainer .FileManagerListItems .item_selected {
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+div.block_row > div.block_holder {
+    text-align: center;
+    overflow: hidden;
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: nowrap;
+    /*    width:120px;
+        padding:0 7px;*/
+    text-overflow: ellipsis;
+    padding-top: 15px;
+}
+
+.preview_img,
+div.block_row > div.block_holder > div {
+    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+}
+
+div.block_row > div.block_holder > div > img {
+    background-size: 48px;
+    border-radius: 5px;
+}
+
+#FileManagerContainer .FileManagerListItems > #Items table.table tr td {
+    border-top: 0;
+    padding: 2px;
+}
+
+#FileManagerContainer .FileManagerListItems > #Items table.table tr td:first-child {
+    padding-left: 8px;
+}
+
+#FileManagerContainer .FileManagerListItems > #Items table.table tr td span > input {
+    width: calc(100% - 30px);
+}
+
+#FileManagerContainer .FileManagerListItems > #Items div.block_holder span > input {
+    width: 100%;
+}
+
+#FileManagerContainer .FileManagerListItems > #Items > #LoadingScreen {
+    position: absolute;
+    display: none;
+    z-index: 20;
+    background: rgba(255, 255, 255, 0.51) url(/bundles/youwefilemanager/images/ajax-loader.gif) no-repeat center;
+    width: 100%;
+    height: 100%;
+    top: 54px;
+}
+
+/**
+ * Dialog and modal
+ */
+.ui-dialog .ui-dialog-content {
+    overflow: visible;
+    font-size: 10pt;
+}
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+#dialog div.error {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #ff7879;
+    background: #ffe4e9;
+}
+
+#file-manager-upload-dialog #dragandrophandler {
+    border: 2px dashed #92AAB0;
+    background: #f5f5f5;
+    width: 100%;
+    color: #92AAB0;
+    padding-top: 75px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 200%;
+    height: 200px;
+}
+
+#file-manager-upload-dialog .modal-dialog {
+    width: 500px;
+}
+
+#infoModal .modal-dialog td.datarow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 480px;
+}
+
+#UploadLoadingScreen {
+    position: absolute;
+    display: none;
+    z-index: 110;
+    background: rgba(255, 255, 255, 0.51) url(/bundles/youwefilemanager/images/ajax-loader.gif) no-repeat center;
+    width: 480px;
+    height: calc(100% - 50px);
+}
+
+#previewContent > img {
+    max-width: 568px;
+}
+
+#previewContent > video {
+    width: 568px;
+}
+
+/**
+ * Misc
+ */
+.yw_file_dragging {
+    opacity: 0.3 !important;
+}
+
+.ui-draggable-helper {
+    border: 1px dotted #000;
+    padding: 6px;
+    background: #fff;
+    font-size: 1.2em;
+    z-index: 10;
+}
+
+/**
+ * File type Icons
+ */
+/*#FileManagerContainer .FileManagerList ul span,*/
+#FileManagerContainer .FileManagerList table td span {
+    padding-bottom: 2px;
+}
+
+/*
+ * Toolbar
+ */
+
+.ToolBar .btn:hover,
+.ToolBar .btn:active,
+.ToolBar .btn:focus {
+    background: #fff;
+}
+
+#paste_btn.disabled {
+    opacity: 0.35;
+}
+
+.ToolBar .ViewOption {
+    display: inline-block;
+    float: right;
+}
+
+/**
+ * Elements Override
+ */
+.panel {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-default > .panel-heading {
+    background: #ddd;
+    border: 0;
+    border-radius: 0;
+}
+
+.panel-body {
+    padding: 0;
+}
+
+#Items .panel {
+    background: #fff;
+}
+
+/* context menu*/
+.context-menu-list {
+    background: #fff;
+}
+
+.context-menu-item {
+    background: none;
+    padding: 5px 2px 5px 24px;
+}
+
+.context-menu-item.icon {
+    background-position: 4px 5px;
+}
+
+.context-menu-item.not-selectable {
+    padding: 0;
+}
+
+/*#FileManagerContainer .FileManagerListItems div.block_row>div.block_holder>div              {background-image: url(/bundles/youwefilemanager/images/icons/48x48/unknow_file.png);}*/
+div.block_row > div.block_holder > div.pdf {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/pdf.png);
+}
+
+div.block_row > div.block_holder > div.zip {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/zip.png);
+}
+
+div.block_row > div.block_holder > div.video {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/video.png);
+}
+
+div.block_row > div.block_holder > div.folder_image {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/folder.png);
+}
+
+div.block_row > div.block_holder > div.shellscript {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/shellscript.png);
+}
+
+div.block_row > div.block_holder > div.php {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/php.png);
+}
+
+div.block_row > div.block_holder > div.code {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/code.png);
+}
+
+div.block_row > div.block_holder > div.svg {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/svg.png);
+}
+
+div.block_row > div.block_holder > div.swf {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/swf.png);
+}
+
+div.block_row > div.block_holder > div.default {
+    background-image: url(/bundles/youwefilemanager/images/icons/48x48/txt.png);
+}
+
+/*#FileManagerContainer .FileManagerList ul span.yw_file_manager_dir,*/
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_item_dir {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/folder.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/page.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.pdf {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/doc-pdf.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.video {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/video.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.code {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/page-code.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.zip {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/zip.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.image {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/image.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.svg {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/image.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.shellscript {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/page.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.php {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/page.png);
+}
+
+#FileManagerContainer .FileManagerList table td span.yw_file_manager_page.audio {
+    background-image: url(/bundles/youwefilemanager/images/icons/16x16/doc-music.png);
+}
