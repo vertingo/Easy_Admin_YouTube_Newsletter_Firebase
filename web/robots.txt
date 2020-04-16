@@ -13,9 +13,9 @@ Disallow: /cache
 Disallow: /admin
 
 
-Sitemap: https://platform-media.herokuapp.com/sitemap.xml
-Sitemap: https://platform-media.herokuapp.com/sitemap.video.xml
-Sitemap: https://platform-media.herokuapp.com/sitemap.index.xml
-Sitemap: https://platform-media.herokuapp.com/sitemap.image.xml
-Sitemap: https://platform-media.herokuapp.com/sitemap.default.xml
-Sitemap: https://platform-media.herokuapp.com/sitemap.screaming.frog.xml
+Sitemap: https://symfony-easyadmin-heroku.herokuapp.com/sitemap.xml
+Sitemap: https://symfony-easyadmin-heroku.herokuapp.com/sitemap.video.xml
+Sitemap: https://symfony-easyadmin-heroku.herokuapp.com/sitemap.index.xml
+Sitemap: https://symfony-easyadmin-heroku.herokuapp.com/sitemap.image.xml
+Sitemap: https://symfony-easyadmin-heroku.herokuapp.com/sitemap.default.xml
+Sitemap: https://symfony-easyadmin-heroku.herokuapp.com/sitemap.screaming.frog.xml
