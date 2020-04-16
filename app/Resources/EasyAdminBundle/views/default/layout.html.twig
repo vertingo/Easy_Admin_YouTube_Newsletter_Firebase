@@ -17,13 +17,13 @@
     {% block head_stylesheets %}
         <link rel="stylesheet" href="{{ asset('bundles/easyadmin/stylesheet/easyadmin-all.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('youtube/my_uploads.css') }}">
-        <style>
+        {#<style>
             {{ easyadmin_config('_internal.custom_css')|raw }}
-        </style>
+        </style>#}
     {% endblock %}
 
     {% for css_asset in easyadmin_config('design.assets.css') %}
-        <link rel="stylesheet" href="{{ asset(css_asset) }}">
+        {#<link rel="stylesheet" href="{{ asset(css_asset) }}">#}
     {% endfor %}
 
     {% block head_favicon %}
