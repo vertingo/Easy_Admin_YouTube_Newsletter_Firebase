@@ -24,7 +24,7 @@ JMSTranslationBundle_ui:
     resource: "@JMSTranslationBundle/Controller/"
     type: annotation
     prefix: /admin/_trans
-   
+
 youwe_file_manager:
     resource: "@YouweFileManagerBundle/Resources/config/routing.yml"
     options:
@@ -50,7 +50,7 @@ media:
 
 artgris_media:
     resource: "@ArtgrisMediaBundle/Resources/config/routing.yml"
-    
+
 block:
    resource: "@ArkounayBlockI18nBundle/Resources/config/routing.yml"
 
@@ -63,18 +63,18 @@ oneup_uploader:
     resource: .
     type: uploader
 
-#newsletters:
-    #resource: "@NewslettersBundle/Controller/"
-    #type:     annotation
-    #prefix:   /newsletters
+newsletters:
+    resource: "@NewslettersBundle/Controller/"
+    type:     annotation
+    prefix:   /newsletters
 
 newsletters_admin:
     path:     admin/tools/newsletters
-    defaults: { _controller: NewslettersBundle:Newsletter:list } 
+    defaults: { _controller: NewslettersBundle:Newsletter:list }
 
 newsletters_admin2:
     path:     newsletters
-    defaults: { _controller: NewslettersBundle:Newsletter:list }   
+    defaults: { _controller: NewslettersBundle:Newsletter:list }
 
 #_novaezseoRoutes:
     # resource: "@NovaeZSEOBundle/Controller/"
