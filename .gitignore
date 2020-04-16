@@ -14,7 +14,6 @@
 !var/sessions/.gitkeep
 !var/SymfonyRequirements.php
 /node_modules/
-/web/bundles/
 !/web/bundles/ibrowsnewsletter
 /vendor/
 !var/data

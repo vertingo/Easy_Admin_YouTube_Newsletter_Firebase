@@ -465,7 +465,7 @@ class ManagerController extends Controller
         $download_counter = new DownloadFileCounter();
 
         $download_counter->setFilename($filename[$count_elt-1]);
-        $download_counter->setFilepath('https://platform-media.herokuapp.com'.$file->url);
+        $download_counter->setFilepath('https://symfony-easyadmin-heroku.herokuapp.com'.$file->url);
         $download_counter->setDownloadCounter(0);
         $download_counter->setOwner($user);
 
@@ -586,7 +586,7 @@ class ManagerController extends Controller
                     $qb = $em->createQueryBuilder();
                     $query = $qb->delete('FileManagerBundle:DownloadFileCounter', 's')
                     ->where('s.filepath = :filepath')
-                    ->setParameter('filepath','https://platform-media.herokuapp.com/'.$rest)
+                    ->setParameter('filepath','https://symfony-easyadmin-heroku.herokuapp.com/'.$rest)
                     ->getQuery();
 
                     $query->execute();
