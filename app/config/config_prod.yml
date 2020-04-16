@@ -55,14 +55,14 @@ doctrine:
             media: Artgris\Bundle\MediaBundle\Type\MediaType
             media_collection: Artgris\Bundle\MediaBundle\Type\MediaCollectionType
             json: Sonata\Doctrine\Types\JsonType
-            nostreamblob: NewslettersBundle\DBAL\Types\NoStreamBlobType
+            nostreamblob: Ibrows\Bundle\NewsletterBundle\DBAL\Types\NoStreamBlobType
         # if using pdo_sqlite as your database driver:
         #   1. add the path in parameters.yml
         #     e.g. database_path: "%kernel.root_dir%/../var/data/data.sqlite"
         #   2. Uncomment database_path in parameters.yml.dist
         #   3. Uncomment next line:
         # path:     "%database_path%"
-      
+
     orm:
         entity_managers:
                 default:
@@ -89,7 +89,7 @@ doctrine:
                             prefix: AppBundle\Entity\Newsletter
                             dir: "%kernel.root_dir%/../src/AppBundle/Entity/Newsletter"
                             is_bundle: false
-                   
+
 youwe_file_manager:
     upload_path: %kernel.root_dir%/../../web/uploads
     full_exception: false
