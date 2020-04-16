@@ -22,9 +22,9 @@
         </style>#}
     {% endblock %}
 
-    {% for css_asset in easyadmin_config('design.assets.css') %}
-        {#<link rel="stylesheet" href="{{ asset(css_asset) }}">#}
-    {% endfor %}
+    {#{% for css_asset in easyadmin_config('design.assets.css') %}
+        <link rel="stylesheet" href="{{ asset(css_asset) }}">
+    {% endfor %}#}
 
     {% block head_favicon %}
         {% set favicon = easyadmin_config('design.assets.favicon') %}
