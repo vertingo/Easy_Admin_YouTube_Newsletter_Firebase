@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
 <url>
-<loc>https://platform-media.herokuapp.com/vertingo-website-introduction</loc>
+<loc>https://symfony-easyadmin-heroku.com/vertingo-website-introduction</loc>
 <video:video>
 <video:thumbnail_loc>https://img.youtube.com/vi/j6IKRxH8PTg/0.jpg</video:thumbnail_loc>
 <video:title><![CDATA[]]>
@@ -16,7 +16,7 @@
 </url>
 
 <url>
-<loc>https://platform-media.herokuapp.com/learn-symfony-framework</loc>
+<loc>https://symfony-easyadmin-heroku.com/learn-symfony-framework</loc>
 <lastmod>2018-11-19T04:30:56+01:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>1.0</priority>
@@ -31,7 +31,7 @@
 </url>
 
 <url>
-<loc>https://platform-media.herokuapp.com/media/gallery/</loc>
+<loc>https://symfony-easyadmin-heroku.com/media/gallery/</loc>
 <video:video>
 <video:thumbnail_loc>https://img.youtube.com/vi/j6IKRxH8PTg/0.jpg</video:thumbnail_loc>
 <video:title><![CDATA[How to use to begin with Symfony 2.6 [1/2]]]></video:title>
