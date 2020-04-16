@@ -17,19 +17,19 @@
     {% block head_stylesheets %}
         <link rel="stylesheet" href="{{ asset('bundles/easyadmin/stylesheet/easyadmin-all.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('youtube/my_uploads.css') }}">
-        {#<style>
+        <style>
             {{ easyadmin_config('_internal.custom_css')|raw }}
-        </style>#}
+        </style>
     {% endblock %}
 
-    {#{% for css_asset in easyadmin_config('design.assets.css') %}
+    {% for css_asset in easyadmin_config('design.assets.css') %}
         <link rel="stylesheet" href="{{ asset(css_asset) }}">
-    {% endfor %}#}
+    {% endfor %}
 
-    {#{% block head_favicon %}
+    {% block head_favicon %}
         {% set favicon = easyadmin_config('design.assets.favicon') %}
         <link rel="icon" type="{{ favicon.mime_type }}" href="{{ asset(favicon.path) }}"/>
-    {% endblock %}#}
+    {% endblock %}
 
     {% block head_javascript %}
     {% block adminlte_options %}
