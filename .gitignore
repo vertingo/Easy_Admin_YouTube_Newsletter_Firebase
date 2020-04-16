@@ -20,7 +20,6 @@
 !var/data
 .idea
 /.php_cs
-/src/AppBundle/Keyfile
 hosts.php
 **/Entity/*~
 /web/uploads
