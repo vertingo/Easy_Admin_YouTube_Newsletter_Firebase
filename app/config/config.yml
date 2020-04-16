@@ -14,8 +14,7 @@ parameters:
 
 # Assetic Configuration
 assetic:
-   bundles: [YouweFileManagerBundle, NewslettersBundle]
-   
+    bundles: [YouweFileManagerBundle, NewslettersBundle]
 
 doctrine:
     orm:
@@ -93,8 +92,8 @@ fos_user:
         #email:
             #template:   '@FOSUser/Resetting/email.txt.twig'
 
- 
-           
+
+
 jms_translation:
     configs:
         app:
@@ -132,14 +131,14 @@ vich_uploader:
         exemple_images:
             uri_prefix:         '/web/uploads'
             upload_destination: '%kernel.root_dir%/../web/uploads'
-            
+
 file_manager:
     conf:
         default:
             dir: "../web/uploads"
         perso:
             service: "custom_service"
-            
+
 
 redjan_ym_fcm:
     firebase_api_key: "AIzaSyDz99I-m4VDKvM3P9l8wo5QieBxzwlu1hQ"
@@ -161,7 +160,7 @@ doctrine_migrations:
     name: migrations
 
 twig:
-    form_themes: 'bootstrap_3_layout.html.twig' 
+    form_themes: 'bootstrap_3_layout.html.twig'
 
 eko_feed:
     #hydrator: your_hydrator.custom.service  Optional, if you use entity hydrating with a custom hydrator
@@ -244,7 +243,7 @@ sonata_seo:
         #doctrine_orm:
             # page - works only for one site, please adapt the code if required
             #- {                 connection: doctrine.dbal.default_connection, route: page_slug,               parameters: {path: null},                             query: "SELECT url as path, updated_at as lastmod, 'weekly' as changefreq, '0.5' as priority FROM page__snapshot WHERE route_name = 'page_slug' AND enabled = 1 AND (publication_date_start IS NULL OR publication_date_start <= NOW()) AND (publication_date_end IS NULL OR publication_date_end >= NOW())" }
-            
+
 
 # config/packages/sonata_seo.yaml
 sonata_block:
@@ -331,13 +330,13 @@ nomaya_social:
             size :          "medium"
             annotation :    "bubble"
             width :         200
-        linkedin:            
+        linkedin:
             url:            null
             locale:         "fr_FR"
             counter:        "right"
         pinterest:
             url:            null
-    links: 
+    links:
         facebook:           "https://www.facebook.com/vertingo/?ref=bookmarks"
         googleplus:         "https://plus.google.com/105931415830389032796"
     theme:                  'default' # optional
@@ -398,7 +397,7 @@ oneup_uploader:
             frontend: dropzone
 
 
-    
+
 
 #novae_zseo:
     #system:
