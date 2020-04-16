@@ -65,7 +65,7 @@ oneup_uploader:
 
 newsletters:
     resource: "@NewslettersBundle/Controller/"
-    type:     annotation
+    #type:     annotation
     prefix:   /newsletters
 
 newsletters_admin:
