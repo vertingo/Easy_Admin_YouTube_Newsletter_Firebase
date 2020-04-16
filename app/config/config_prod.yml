@@ -55,7 +55,8 @@ doctrine:
             media: Artgris\Bundle\MediaBundle\Type\MediaType
             media_collection: Artgris\Bundle\MediaBundle\Type\MediaCollectionType
             json: Sonata\Doctrine\Types\JsonType
-            nostreamblob: Ibrows\Bundle\NewsletterBundle\DBAL\Types\NoStreamBlobType
+            #nostreamblob: Ibrows\Bundle\NewsletterBundle\DBAL\Types\NoStreamBlobType
+            nostreamblob: NewslettersBundle\DBAL\Types\NoStreamBlobType
         # if using pdo_sqlite as your database driver:
         #   1. add the path in parameters.yml
         #     e.g. database_path: "%kernel.root_dir%/../var/data/data.sqlite"
