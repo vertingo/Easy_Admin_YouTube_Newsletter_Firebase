@@ -26,10 +26,10 @@
         <link rel="stylesheet" href="{{ asset(css_asset) }}">
     {% endfor %}#}
 
-    {% block head_favicon %}
+    {#{% block head_favicon %}
         {% set favicon = easyadmin_config('design.assets.favicon') %}
         <link rel="icon" type="{{ favicon.mime_type }}" href="{{ asset(favicon.path) }}"/>
-    {% endblock %}
+    {% endblock %}#}
 
     {% block head_javascript %}
     {% block adminlte_options %}
