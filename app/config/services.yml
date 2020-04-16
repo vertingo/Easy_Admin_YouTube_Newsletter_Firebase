@@ -3,7 +3,7 @@
 parameters:
     #parameter_name: value
     router.request_context.host:   symfony-easyadmin-heroku.herokuapp.com/
-    router.request_context.scheme: https
+    router.request_context.scheme: http
 
 
 services:
