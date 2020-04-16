@@ -4,7 +4,7 @@ parameters:
     #parameter_name: value
     router.request_context.host:   symfony-easyadmin-heroku.herokuapp.com/
     router.request_context.scheme: https
-    
+
 
 services:
     # default configuration for services in *this* file
@@ -37,17 +37,17 @@ services:
 
     #Application\:
         #resource: '../../src/Application'
-        #exclude: '../../src/{Tests}'   
-    
+        #exclude: '../../src/{Tests}'
+
     type.newsletter:
         class: Usn\NewsletterBundle\Form\Type\NewsletterType
         tags:
             - { name: form.type }
-            
-     
+
+
     app.sitemap.blog_post_subscriber:
         class: AppBundle\Event\Listener\SitemapSubscriber
-        arguments: 
+        arguments:
             - "@router"
             - "@doctrine"
         tags:
@@ -59,13 +59,13 @@ services:
 
     VideoPlayerBundle.YourUploadListener:
         class: VideoPlayerBundle\EventListener\YourUploadListener
-        arguments: 
-            - "@doctrine" 
+        arguments:
+            - "@doctrine"
             - "@php_ffmpeg.ffmpeg"
         tags:
             -  { name: kernel.event_listener, event: oneup_uploader.post_upload, method: onUpload }
 
-    
+
     #app.seo.sitemap.loader.last_modified:
         #class: AppBundle\Seo\Sitemap\LastModifiedGuesser
         #tags:
