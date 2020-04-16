@@ -63,10 +63,10 @@ oneup_uploader:
     resource: .
     type: uploader
 
-newsletters:
-    resource: "@NewslettersBundle/Controller/"
+#newsletters:
+    # resource: "@NewslettersBundle/Controller/"
     # type:     annotation
-    prefix:   /newsletters
+    # prefix:   /newsletters
 
 newsletters_admin:
     path:     admin/tools/newsletters
