@@ -3,7 +3,7 @@ parameters:
     database_port: 3306
     database_name: easyadmin
     database_user: root
-    database_password: 
+    database_password: root
 
     database_host_prod: ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
     database_port_prod: 5432
@@ -17,14 +17,14 @@ parameters:
     database_port_mandanta:     ~
     database_name_mandanta:     newslettersandbox_mandanta
     database_user_mandanta:     root
-    database_password_mandanta: 
+    database_password_mandanta: root
 
     database_driver_mandantb:   pdo_mysql
     database_host_mandantb:     127.0.0.1
     database_port_mandantb:     ~
     database_name_mandantb:     newslettersandbox_mandantb
     database_user_mandantb:     root
-    database_password_mandantb: 
+    database_password_mandantb: root
 
     database_driver_mandanta_prod: pdo_mysql
     database_host_mandanta_prod: ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
