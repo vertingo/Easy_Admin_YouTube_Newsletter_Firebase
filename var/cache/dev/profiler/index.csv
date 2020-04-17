@@ -30,3 +30,14 @@ cad11d,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/t
 039022,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/?conf=default,1587151071,,200
 97b96a,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/manager,1587151114,,200
 31ef8d,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/?conf=default,1587151116,,200
+cea5dd,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/manager,1587151293,,200
+446364,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/?conf=default,1587151294,,200
+8d0cdf,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587151301,,200
+1a72c3,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/manager,1587151355,,200
+49f7e3,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/?conf=default,1587151357,,200
+cb2237,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/front_file_manager,1587151371,648303,200
+648303,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/front_file_manager,1587151371,,500
+4b88c3,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/front_file_manager?conf=default,1587151383,,200
+b443fe,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/?conf=default,1587151677,,200
+5607a2,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/manager,1587152125,,200
+034ec8,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/manager,1587152210,,200
