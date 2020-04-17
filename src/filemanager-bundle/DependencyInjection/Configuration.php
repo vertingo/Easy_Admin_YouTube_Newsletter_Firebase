@@ -16,7 +16,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('artgris_file_manager');
+        $rootNode = $treeBuilder->root('file_manager');
 
         $rootNode
             ->children()
