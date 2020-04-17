@@ -14,7 +14,8 @@
 !var/sessions/.gitkeep
 !var/SymfonyRequirements.php
 /node_modules/
-/web/bundles/
+!/web/bundles/artgrisfilemanager
+/web/bundles
 src/AppBundle/Keyfile/topsite-admin-symfony-1219cee3cde9.json
 !/web/bundles/ibrowsnewsletter
 /vendor/
