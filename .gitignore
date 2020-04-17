@@ -15,6 +15,7 @@
 !var/SymfonyRequirements.php
 /node_modules/
 /web/bundles/
+src/Keyfile/topsite-admin-symfony-1219cee3cde9.json
 !/web/bundles/ibrowsnewsletter
 /vendor/
 !var/data
