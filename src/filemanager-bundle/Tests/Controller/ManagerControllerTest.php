@@ -27,12 +27,12 @@ class ManagerControllerTest extends AbstractTestCase
         $crawler = $this->getManagerPage();
 
         $cssList = [
-            '/bundles/artgrisfilemanager/libs/bootstrap/dist/css/bootstrap.min.css',
-            '/bundles/artgrisfilemanager/libs/components-font-awesome/css/font-awesome.min.css',
-            '/bundles/artgrisfilemanager/libs/jstree/dist/themes/default/style.min.css',
-            '/bundles/artgrisfilemanager/libs/blueimp-file-upload/css/jquery.fileupload.css',
-            '/bundles/artgrisfilemanager/css/manager.css',
-            '/bundles/artgrisfilemanager/libs/jQuery-contextMenu/dist/jquery.contextMenu.min.css',
+            '/bundles/filemanager/libs/bootstrap/dist/css/bootstrap.min.css',
+            '/bundles/filemanager/libs/components-font-awesome/css/font-awesome.min.css',
+            '/bundles/filemanager/libs/jstree/dist/themes/default/style.min.css',
+            '/bundles/filemanager/libs/blueimp-file-upload/css/jquery.fileupload.css',
+            '/bundles/filemanager/css/manager.css',
+            '/bundles/filemanager/libs/jQuery-contextMenu/dist/jquery.contextMenu.min.css',
         ];
 
         foreach ($cssList as $i => $css) {
@@ -48,15 +48,15 @@ class ManagerControllerTest extends AbstractTestCase
         $crawler = $this->getManagerPage();
 
         $jsList = [
-            '/bundles/artgrisfilemanager/libs/jquery/dist/jquery.min.js',
-            '/bundles/artgrisfilemanager/libs/bootstrap/dist/js/bootstrap.min.js',
-            '/bundles/artgrisfilemanager/libs/jstree/dist/jstree.min.js',
-            '/bundles/artgrisfilemanager/libs/blueimp-file-upload/js/vendor/jquery.ui.widget.js',
-            '/bundles/artgrisfilemanager/libs/blueimp-file-upload/js/jquery.iframe-transport.js',
-            '/bundles/artgrisfilemanager/libs/blueimp-file-upload/js/jquery.fileupload.js',
-            '/bundles/artgrisfilemanager/libs/sticky-kit/jquery.sticky-kit.min.js',
-            '/bundles/artgrisfilemanager/libs/remarkable-bootstrap-notify/dist/bootstrap-notify.min.js',
-            '/bundles/artgrisfilemanager/libs/jQuery-contextMenu/dist/jquery.contextMenu.min.js',
+            '/bundles/filemanager/libs/jquery/dist/jquery.min.js',
+            '/bundles/filemanager/libs/bootstrap/dist/js/bootstrap.min.js',
+            '/bundles/filemanager/libs/jstree/dist/jstree.min.js',
+            '/bundles/filemanager/libs/blueimp-file-upload/js/vendor/jquery.ui.widget.js',
+            '/bundles/filemanager/libs/blueimp-file-upload/js/jquery.iframe-transport.js',
+            '/bundles/filemanager/libs/blueimp-file-upload/js/jquery.fileupload.js',
+            '/bundles/filemanager/libs/sticky-kit/jquery.sticky-kit.min.js',
+            '/bundles/filemanager/libs/remarkable-bootstrap-notify/dist/bootstrap-notify.min.js',
+            '/bundles/filemanager/libs/jQuery-contextMenu/dist/jquery.contextMenu.min.js',
         ];
 
         foreach ($jsList as $i => $js) {
