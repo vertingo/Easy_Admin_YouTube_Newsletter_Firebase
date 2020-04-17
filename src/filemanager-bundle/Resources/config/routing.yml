@@ -6,8 +6,8 @@ interactive:
 index:
     path:     front_file_manager/
     defaults: { _controller: FileManagerBundle:Manager:index2 }
-
-
+    
+    
 front_bundle_file_manager:
     path:     /admin/tools/manager
     defaults: { _controller: FileManagerBundle:Manager:index }    
