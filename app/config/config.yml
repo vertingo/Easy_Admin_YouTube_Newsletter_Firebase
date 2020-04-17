@@ -132,12 +132,19 @@ vich_uploader:
             uri_prefix:         '/web/uploads'
             upload_destination: '%kernel.root_dir%/../web/uploads'
 
+
 file_manager:
+    web_dir: uploads                 
     conf:
         default:
             dir: "../web/uploads"
-        perso:
-            service: "custom_service"
+
+#file_manager:
+    #conf:
+        #default:
+            #dir: "../web/uploads"
+        #perso:
+            #service: "custom_service"
 
 #artgris_file_manager:
     #conf:
