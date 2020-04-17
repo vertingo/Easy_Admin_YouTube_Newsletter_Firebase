@@ -30,6 +30,7 @@ class AppKernel extends Kernel
             new Arkounay\BlockI18nBundle\ArkounayBlockI18nBundle(),
             new Gregwar\ImageBundle\GregwarImageBundle(),
             new Artgris\Bundle\MediaBundle\ArtgrisMediaBundle(),
+            new Artgris\Bundle\FileManagerBundle\ArtgrisFileManagerBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new Lexik\Bundle\FormFilterBundle\LexikFormFilterBundle(),

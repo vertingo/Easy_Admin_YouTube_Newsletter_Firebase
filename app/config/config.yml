@@ -132,12 +132,17 @@ vich_uploader:
             uri_prefix:         '/web/uploads'
             upload_destination: '%kernel.root_dir%/../web/uploads'
 
-file_manager:
+#file_manager:
+    #conf:
+        #default:
+            #dir: "../web/uploads"
+        #perso:
+            #service: "custom_service"
+
+artgris_file_manager:
     conf:
         default:
             dir: "../web/uploads"
-        perso:
-            service: "custom_service"
 
 
 redjan_ym_fcm:

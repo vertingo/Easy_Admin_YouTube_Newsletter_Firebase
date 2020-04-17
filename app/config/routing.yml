@@ -8,14 +8,19 @@ easy_admin_bundle:
     options: { i18n: false }
     prefix:   /admin
 
+artgris_bundle_file_manager:
+    resource: "@ArtgrisFileManagerBundle/Controller"
+    type:     annotation
+    prefix: /admin/tools/manager
+
 presta_sitemap:
     resource: "@PrestaSitemapBundle/Resources/config/routing.yml"
 
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
 
-front_bundle_file_manager:
-    resource: "@FileManagerBundle/Resources/config/routing.yml"
+#front_bundle_file_manager:
+    #resource: "@FileManagerBundle/Resources/config/routing.yml"
 
 front_video_player_bundle:
     resource: "@VideoPlayerBundle/Resources/config/routing.yml"
