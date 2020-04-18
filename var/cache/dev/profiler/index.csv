@@ -11,3 +11,10 @@ bb78c1,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/t
 eb4a53,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/?conf=default,1587169605,,200
 fba836,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587169607,,200
 6e7e32,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587169901,,200
+a24cdf,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587170670,,200
+7d5552,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/manager,1587170676,,200
+cb7705,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/?conf=default,1587170678,,200
+de21a0,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587170682,,200
+1e69e3,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/newsletters,1587170875,,200
+41da63,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/newsletters,1587170877,e93439,200
+e93439,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/newsletters,1587170877,,500
