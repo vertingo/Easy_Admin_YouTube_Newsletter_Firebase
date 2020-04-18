@@ -1,4 +1,0 @@
-front_bundle_file_manager:
-    resource: "@FileManagerBundle/Controller"
-    type:     annotation
-    prefix:   /front_file_manager/
