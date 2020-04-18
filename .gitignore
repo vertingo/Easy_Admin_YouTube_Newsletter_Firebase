@@ -2,9 +2,8 @@
 /app/config/parameters.yml
 /build/
 /phpunit.xml
-/var/*
-!/var/cache
-/var/cache/*
+
+
 !var/cache/.gitkeep
 !/var/logs
 /var/logs/*
@@ -17,6 +16,7 @@
 src/AppBundle/Keyfile/topsite-admin-symfony-1219cee3cde9.json
 !/web/bundles/ibrowsnewsletter
 /vendor/
+/web/ffmpeg/
 !var/data
 .idea
 /.php_cs
