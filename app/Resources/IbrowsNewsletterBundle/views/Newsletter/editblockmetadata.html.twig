@@ -1,0 +1,8 @@
+{% trans_default_domain "IbrowsNewsletterBundle" %}
+<form method="POST" action="{{ url('ibrows_newsletter_blockmetadata_edit') }}">
+    {{ form_widget(form) }}
+    <input type="hidden" name="block" value="{{ blockId }}">
+    {% if form|length > 1 %}
+        <input type="submit" name="{{ 'form.save'|trans }}">
+    {% endif %}
+</form>

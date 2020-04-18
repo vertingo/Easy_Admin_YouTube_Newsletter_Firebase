@@ -1,0 +1,40 @@
+easy_admin: # http://symfony.com/doc/current/bundles/EasyAdminBundle/book/configuration-reference.html
+    site_name: 'Admin'
+    formats:
+        date: 'd/m/Y'
+        datetime: 'd/m/Y H:i:s'
+        time: 'H:i'
+#        number: '%.2f'
+    list:
+       title: '%%entity_label%%'
+       actions:
+            - { name: 'edit', icon: 'pencil' }
+            - { name: 'delete', icon: 'trash-o' }
+    show:
+          title: 'Éditer %%entity_label%% (#%%entity_id%%)'
+    new:
+        title: 'Créer %%entity_label%%'
+#       max_results: 15
+#    show:
+#      max_results: 10
+    design:
+#        color_scheme: 'dark'
+#        brand_color: '#4B4B4B'
+#        brand_color: '#000000'
+#        form_theme: 'horizontal'
+        form_theme: ['horizontal', 'VichUploaderBundle:Form:fields.html.twig', 'admin/themes/jquery.collection.html.twig']
+        assets:
+            css:
+              - 'admin/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css'
+              - "admin/css/admin.css"
+              - 'bundles/artgrismedia/css/media.css'
+              - 'bundles/filemanager/libs/blueimp-file-upload/css/jquery.fileupload.css'
+            js:
+              - 'admin/plugins/tinymce/tinymce.min.js'
+              - 'admin/plugins/tinymce/jquery.tinymce.min.js'
+              - 'admin/plugins/jquery-ui-1.12.1/jquery-ui.js'
+              - 'admin/plugins/moment-with-locales.js'
+              - 'admin/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js'
+              - 'admin/plugins/symfony-collection-2.0.4/jquery.collection.js'
+              - 'admin/js/admin.js'
+            favicon: '/favicon.ico'

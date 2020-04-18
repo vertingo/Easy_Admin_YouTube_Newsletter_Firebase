@@ -1,0 +1,346 @@
+@font-face {
+	font-family: "icon";
+	src: url("/fonts/icon.eot?cdf1802b921628518ff1ee33f4de3737?#iefix") format("embedded-opentype"),
+url("/fonts/icon.woff?cdf1802b921628518ff1ee33f4de3737") format("woff"),
+url("/fonts/icon.ttf?cdf1802b921628518ff1ee33f4de3737") format("truetype"),
+url("/fonts/icon.svg?cdf1802b921628518ff1ee33f4de3737#icon") format("svg");
+}
+.icon {
+	font-family: "icon";
+}
+
+@if not variable-exists('webfont-icons') {
+	$webfont-icons: () !global;
+}
+
+$webfont-icons: map-merge($webfont-icons, (
+		'arrow-circle-down': ('icon' '\f101'),
+		'arrow-circle-left': ('icon' '\f102'),
+		'arrow-circle-o-down': ('icon' '\f103'),
+		'arrow-circle-o-left': ('icon' '\f104'),
+		'arrow-circle-o-right': ('icon' '\f105'),
+		'arrow-circle-o-up': ('icon' '\f106'),
+		'arrow-circle-right': ('icon' '\f107'),
+		'arrow-circle-up': ('icon' '\f108'),
+		'arrow-down': ('icon' '\f109'),
+		'arrow-left': ('icon' '\f10a'),
+		'arrow-right': ('icon' '\f10b'),
+		'arrow-up': ('icon' '\f10c'),
+		'arrows-alt': ('icon' '\f10d'),
+		'arrows-h': ('icon' '\f10e'),
+		'arrows-v': ('icon' '\f10f'),
+		'arrows': ('icon' '\f110'),
+		'calendar-check-o': ('icon' '\f111'),
+		'check-circle-o': ('icon' '\f112'),
+		'check-circle': ('icon' '\f113'),
+		'check-square-o': ('icon' '\f114'),
+		'check-square': ('icon' '\f115'),
+		'check': ('icon' '\f116'),
+		'exclamation-circle': ('icon' '\f117'),
+		'exclamation-triangle': ('icon' '\f118'),
+		'exclamation': ('icon' '\f119'),
+		'facebook-f': ('icon' '\f11a'),
+		'facebook-official': ('icon' '\f11b'),
+		'facebook-square': ('icon' '\f11c'),
+		'facebook': ('icon' '\f11d'),
+		'flag-checkered': ('icon' '\f11e'),
+		'info-circle': ('icon' '\f11f'),
+		'info': ('icon' '\f120'),
+		'location-arrow': ('icon' '\f121'),
+		'long-arrow-down': ('icon' '\f122'),
+		'long-arrow-left': ('icon' '\f123'),
+		'long-arrow-right': ('icon' '\f124'),
+		'long-arrow-up': ('icon' '\f125'),
+		'twitch': ('icon' '\f126'),
+		'twitter-square': ('icon' '\f127'),
+		'twitter': ('icon' '\f128'),
+		'warning': ('icon' '\f129'),
+		'youtube-play': ('icon' '\f12a'),
+		'youtube-square': ('icon' '\f12b'),
+		'youtube': ('icon' '\f12c'),
+));
+
+@mixin webfont-icon($name) {
+	line-height: 1;
+
+	$icon: map-get($webfont-icons, $name);
+	&:before {
+		font-family: nth($icon, 1) !important;
+		font-style: normal;
+		font-weight: normal !important;
+		vertical-align: top;
+		content: nth($icon, 2);
+	}
+}
+
+.icon-:before {
+	font-family: icon !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-arrow-circle-down:before {
+	content: "\f101";
+}
+%icon-arrow-circle-down {
+	content: "\f101";
+}
+.icon-arrow-circle-left:before {
+	content: "\f102";
+}
+%icon-arrow-circle-left {
+	content: "\f102";
+}
+.icon-arrow-circle-o-down:before {
+	content: "\f103";
+}
+%icon-arrow-circle-o-down {
+	content: "\f103";
+}
+.icon-arrow-circle-o-left:before {
+	content: "\f104";
+}
+%icon-arrow-circle-o-left {
+	content: "\f104";
+}
+.icon-arrow-circle-o-right:before {
+	content: "\f105";
+}
+%icon-arrow-circle-o-right {
+	content: "\f105";
+}
+.icon-arrow-circle-o-up:before {
+	content: "\f106";
+}
+%icon-arrow-circle-o-up {
+	content: "\f106";
+}
+.icon-arrow-circle-right:before {
+	content: "\f107";
+}
+%icon-arrow-circle-right {
+	content: "\f107";
+}
+.icon-arrow-circle-up:before {
+	content: "\f108";
+}
+%icon-arrow-circle-up {
+	content: "\f108";
+}
+.icon-arrow-down:before {
+	content: "\f109";
+}
+%icon-arrow-down {
+	content: "\f109";
+}
+.icon-arrow-left:before {
+	content: "\f10a";
+}
+%icon-arrow-left {
+	content: "\f10a";
+}
+.icon-arrow-right:before {
+	content: "\f10b";
+}
+%icon-arrow-right {
+	content: "\f10b";
+}
+.icon-arrow-up:before {
+	content: "\f10c";
+}
+%icon-arrow-up {
+	content: "\f10c";
+}
+.icon-arrows-alt:before {
+	content: "\f10d";
+}
+%icon-arrows-alt {
+	content: "\f10d";
+}
+.icon-arrows-h:before {
+	content: "\f10e";
+}
+%icon-arrows-h {
+	content: "\f10e";
+}
+.icon-arrows-v:before {
+	content: "\f10f";
+}
+%icon-arrows-v {
+	content: "\f10f";
+}
+.icon-arrows:before {
+	content: "\f110";
+}
+%icon-arrows {
+	content: "\f110";
+}
+.icon-calendar-check-o:before {
+	content: "\f111";
+}
+%icon-calendar-check-o {
+	content: "\f111";
+}
+.icon-check-circle-o:before {
+	content: "\f112";
+}
+%icon-check-circle-o {
+	content: "\f112";
+}
+.icon-check-circle:before {
+	content: "\f113";
+}
+%icon-check-circle {
+	content: "\f113";
+}
+.icon-check-square-o:before {
+	content: "\f114";
+}
+%icon-check-square-o {
+	content: "\f114";
+}
+.icon-check-square:before {
+	content: "\f115";
+}
+%icon-check-square {
+	content: "\f115";
+}
+.icon-check:before {
+	content: "\f116";
+}
+%icon-check {
+	content: "\f116";
+}
+.icon-exclamation-circle:before {
+	content: "\f117";
+}
+%icon-exclamation-circle {
+	content: "\f117";
+}
+.icon-exclamation-triangle:before {
+	content: "\f118";
+}
+%icon-exclamation-triangle {
+	content: "\f118";
+}
+.icon-exclamation:before {
+	content: "\f119";
+}
+%icon-exclamation {
+	content: "\f119";
+}
+.icon-facebook-f:before {
+	content: "\f11a";
+}
+%icon-facebook-f {
+	content: "\f11a";
+}
+.icon-facebook-official:before {
+	content: "\f11b";
+}
+%icon-facebook-official {
+	content: "\f11b";
+}
+.icon-facebook-square:before {
+	content: "\f11c";
+}
+%icon-facebook-square {
+	content: "\f11c";
+}
+.icon-facebook:before {
+	content: "\f11d";
+}
+%icon-facebook {
+	content: "\f11d";
+}
+.icon-flag-checkered:before {
+	content: "\f11e";
+}
+%icon-flag-checkered {
+	content: "\f11e";
+}
+.icon-info-circle:before {
+	content: "\f11f";
+}
+%icon-info-circle {
+	content: "\f11f";
+}
+.icon-info:before {
+	content: "\f120";
+}
+%icon-info {
+	content: "\f120";
+}
+.icon-location-arrow:before {
+	content: "\f121";
+}
+%icon-location-arrow {
+	content: "\f121";
+}
+.icon-long-arrow-down:before {
+	content: "\f122";
+}
+%icon-long-arrow-down {
+	content: "\f122";
+}
+.icon-long-arrow-left:before {
+	content: "\f123";
+}
+%icon-long-arrow-left {
+	content: "\f123";
+}
+.icon-long-arrow-right:before {
+	content: "\f124";
+}
+%icon-long-arrow-right {
+	content: "\f124";
+}
+.icon-long-arrow-up:before {
+	content: "\f125";
+}
+%icon-long-arrow-up {
+	content: "\f125";
+}
+.icon-twitch:before {
+	content: "\f126";
+}
+%icon-twitch {
+	content: "\f126";
+}
+.icon-twitter-square:before {
+	content: "\f127";
+}
+%icon-twitter-square {
+	content: "\f127";
+}
+.icon-twitter:before {
+	content: "\f128";
+}
+%icon-twitter {
+	content: "\f128";
+}
+.icon-warning:before {
+	content: "\f129";
+}
+%icon-warning {
+	content: "\f129";
+}
+.icon-youtube-play:before {
+	content: "\f12a";
+}
+%icon-youtube-play {
+	content: "\f12a";
+}
+.icon-youtube-square:before {
+	content: "\f12b";
+}
+%icon-youtube-square {
+	content: "\f12b";
+}
+.icon-youtube:before {
+	content: "\f12c";
+}
+%icon-youtube {
+	content: "\f12c";
+}

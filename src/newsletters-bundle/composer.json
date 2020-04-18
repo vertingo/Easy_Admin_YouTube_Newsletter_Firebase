@@ -1,0 +1,11 @@
+{
+    "name": "usn/newsletter-bundle",
+    "type": "symfony-bundle",
+    "description": "Newsletter bundle for symfony 2",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": { "Usn\\NewsletterBundle\\": "" }
+    }
+}

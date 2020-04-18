@@ -1,0 +1,66 @@
+#FileManagerContainer .FileManagerList .FileManagerHead {
+    background: #e0e0e0;
+    border-bottom: 1px solid #bbbbbb;
+    color: #333333;
+}
+
+/**
+ * Directory List Colors
+ */
+#Dirs .panel,
+#FileManagerContainer .FileManagerListDirs {
+    background: #f5f5f5;
+    color: #333333;
+}
+
+.modal-dialog .modal-header,
+.panel-info > .panel-heading {
+    border: 0;
+}
+
+.panel-info > .panel-heading,
+.panel-info > .panel-heading > button,
+.modal-dialog .modal-header,
+.modal-dialog .modal-header > button,
+.panel-default > .panel-heading {
+    color: #333;
+    background: #e5e5e5;
+}
+
+#FileManagerContainer .FileManagerListDirs a,
+#FileManagerContainer .FileManagerListDirs .panel-body > ul {
+    color: #333333;
+}
+
+/**
+ * Directory List Border Colors
+ */
+#Dirs .space-fill,
+#FileManagerContainer .FileManagerListDirs li:not(.dir_active) > span > span.yw_file_manager_dir,
+#FileManagerContainer .FileManagerListDirs li.dir_active > span > span.yw_file_manager_dir {
+    border-color: #bdbdbd;
+}
+
+/**
+* Files action colors
+*/
+div.block_row:hover {
+    background-color: #f2f2f2;
+}
+
+div.block_row:hover,
+#FileManagerContainer .FileManagerListItems .item_selected
+#FileManagerContainer .FileManagerListItems .item_selected:hover,
+div.block_row.item_selected:hover,
+{
+    background-color: #e0e0e0;
+}
+
+#FileManagerContainer .FileManagerListItems .item_selected {
+    background-color: #e3e3e3;
+}
+
+#FileManagerContainer .FileManagerListItems .item_selected:hover,
+div.block_row.item_selected:hover {
+    background-color: #dcdcdc;
+}

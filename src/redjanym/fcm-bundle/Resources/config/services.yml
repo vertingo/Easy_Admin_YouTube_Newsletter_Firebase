@@ -1,0 +1,10 @@
+services:
+    redjan_ym_fcm.client:
+        class: FcmBundle\FCMClient
+        public: true
+        arguments: ['@sngrl.firebase_php_notification']
+
+    sngrl.firebase_php_notification:
+        class: sngrl\PhpFirebaseCloudMessaging\Client
+        calls:
+            - [setApiKey, ['%redjan_ym_fcm.firebase_api_key%']]

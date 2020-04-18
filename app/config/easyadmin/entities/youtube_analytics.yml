@@ -1,0 +1,43 @@
+easy_admin:
+    entities:
+        YouTubeAnalytics:
+            disabled_actions: ['edit','new','delete']
+            label: "YouTubeAnalytics"
+            
+          #  controller: VideoPlayerBundle\Controller\Admin\UserController
+            class: VideoPlayerBundle\Entity\YouTubeAnalytics
+#            label: 'Users'
+#            help: 'Global message displayed in all views'
+            list:
+                actions: ['export']
+#                title: "%%entity_label%% listing"
+#                help: 'Global message displayed in all views'
+#                actions: ['show']
+#                actions: ['duplicate']
+                fields:
+                  - 'day'
+                  - 'views'
+                  - 'estimated_minutes_watched'
+                  - 'average_view_duration'
+                  - 'average_view_percentage'
+                  - 'subscribers_gained'
+                  - 'likes'
+                  - 'dislikes'
+                  - 'shares'
+                    
+#                sort: 'createdAt'
+#                dql_filter: 'entity.id >= 0'
+            form: #'form' is applied to both 'new' and 'edit' views
+                fields:
+                  - 'day'
+                  - 'views'
+                  - 'estimated_minutes_watched'
+                  - 'average_view_duration'
+                  - 'average_view_percentage'
+                  - 'subscribers_gained'
+                  - 'likes'
+                  - 'dislikes'
+                  - 'shares'
+
+                    
+                   

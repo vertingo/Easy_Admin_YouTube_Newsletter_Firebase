@@ -1,0 +1,5 @@
+services:
+    video_player.validator.initializer:
+        class: VideoPlayerBundle\Validator\Initializer
+        tag: validator.initializer
+        arguments: ["video_player.video_manager"]

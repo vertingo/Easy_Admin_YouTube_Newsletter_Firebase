@@ -1,0 +1,26 @@
+easy_admin:
+    entities:
+        GcmUser:
+            disabled_actions: ['delete','edit','new']
+            label: "GcmUser"
+            #controller: AppBundle\Controller\Admin\UserController
+            class: AppBundle\Entity\GcmUser
+#            label: 'Users'
+#            help: 'Global message displayed in all views'
+            list:
+#                title: "%%entity_label%% listing"
+#                help: 'Global message displayed in all views'
+#                actions: ['show']
+#                actions: ['duplicate']
+                fields:
+                  - { property: 'username', type: 'text'}
+                  - { property: 'token', type: 'text'}
+                  - { property: 'enabled', type: 'toggle'}
+#                sort: 'createdAt'
+               
+            form: #'form' is applied to both 'new' and 'edit' views
+                fields:
+                    - username
+                    - token
+                    - enabled
+        

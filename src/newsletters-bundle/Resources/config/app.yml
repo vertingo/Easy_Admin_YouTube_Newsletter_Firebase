@@ -1,0 +1,4 @@
+parameters:
+    confirmation_email_subject: Your auto-reply email subject
+    newsletter_from_address: 'no-reply@yourdomain.com'
+    newsletter_from_name: 'Sender name'

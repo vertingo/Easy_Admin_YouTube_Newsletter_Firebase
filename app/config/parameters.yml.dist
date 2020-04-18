@@ -1,0 +1,51 @@
+parameters:
+    database_host: 127.0.0.1
+    database_port: 3306
+    database_name: easyadmin
+    database_user: root
+    database_password: root
+
+    database_host_prod: ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
+    database_port_prod: 5432
+    database_name_prod: dc3o9u720sdqoj
+    database_user_prod: eptluorbexwymp
+    database_password_prod: 299df3bedc0a8b3992034c0c2831c60052760de78cb60925ca75a1029d88cc6a
+    database_url: ~
+
+    database_driver_mandanta:   pdo_mysql
+    database_host_mandanta:     127.0.0.1
+    database_port_mandanta:     ~
+    database_name_mandanta:     newslettersandbox_mandanta
+    database_user_mandanta:     root
+    database_password_mandanta: root
+
+    database_driver_mandantb:   pdo_mysql
+    database_host_mandantb:     127.0.0.1
+    database_port_mandantb:     ~
+    database_name_mandantb:     newslettersandbox_mandantb
+    database_user_mandantb:     root
+    database_password_mandantb: root
+
+    database_driver_mandanta_prod: pdo_mysql
+    database_host_mandanta_prod: ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
+    database_port_mandanta_prod: 5432
+    database_name_mandanta_prod: dhp35dtqj73u6
+    database_user_mandanta_prod: lgthuxxcimvxqr
+    database_password_mandanta_prod: 44d74579953aad76a9ead46bb88bfe5a5ace4f2b7a34079e811147272c1eab23
+
+    database_driver_mandantb_prod: pdo_mysql
+    database_host_mandantb_prod: ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
+    database_port_mandantb_prod: 5432
+    database_name_mandantb_prod: d717inn7eq4qk1
+    database_user_mandantb_prod: gafrauzjzqxgag
+    database_password_mandantb_prod: 7b626d03d6de86b77f7050b82de5fdd706ad4528fd30baba7801684cd4a77a1f
+
+
+    mailer_transport: smtp
+    mailer_encryption: tls
+    mailer_auth_mode: plain
+    mailer_host: smtp.mailtrap.io
+    mailer_port: 2525
+    mailer_user: 03c76d39beae13
+    mailer_password: 33c4313a9c190f
+    secret: ThisTokenIsNotSoSecretChangeIt

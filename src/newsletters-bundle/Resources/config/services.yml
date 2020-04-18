@@ -1,0 +1,12 @@
+parameters:
+#    usn_newsletter.example.class: Usn\NewsletterBundle\Example
+
+services:
+#    usn_newsletter.example:
+#        class: %usn_newsletter.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+  usn.form.type.newsletter:
+    class: NewsletterBundle\Form\Type\NewsletterType
+    tags:
+      - { name: form.type, alias: newsletter }

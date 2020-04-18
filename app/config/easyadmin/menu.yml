@@ -1,0 +1,27 @@
+easy_admin:
+    design:
+        menu:
+          - { label: 'menu.dashboard', route: 'admin_dashboard', icon: 'dashboard', default: true }
+          - { label: 'menu.user', icon: 'users', entity: 'User' , role: 'ROLE_SUPER_ADMIN'}
+          - { label: 'GcmUser', icon: 'users', entity: 'GcmUser' }
+          - { label: 'Videos', icon: 'play', entity: 'Video' }
+          - { label: 'YouTubePlayList', icon: 'list', entity: 'PlayListYouTube' }
+          - { label: 'YouTubeInfos', icon: 'youtube', entity: 'YouTubeInfos' }
+          - { label: 'YouTubeAnalytics', icon: 'youtube', entity: 'YouTubeAnalytics' }
+          - { label: 'Newsletter', route: 'newsletters_admin', icon: 'square-o' }
+          - { label: 'DownloadFileCounter', icon: 'download', entity: 'DownloadFileCounter' }
+          - { label: 'FootballAPI', icon: 'flag', entity: 'FootballAPI' }
+          - label: 'menu.settings'
+            icon: 'wrench'
+            children:
+                - { label: 'menu.cc', route: 'admin_tools_cc', icon: 'eraser', role: 'ROLE_SUPER_ADMIN' }
+                - { label: 'menu.dsv', route: 'admin_tools_checkdatabase', icon: 'database', role: 'ROLE_SUPER_ADMIN' }
+                - { label: 'menu.translate', route: 'jms_translation_index', icon: 'flag', role: 'ROLE_SUPER_ADMIN' }
+                - { label: 'menu.manager', route: 'admin_tools_manager', icon: 'upload' }
+          - label: 'Blocs'
+            icon: 'square-o'
+            role: 'ROLE_SUPER_ADMIN'
+            children:
+                - { label: 'menu.bloc.text', entity: 'PageBlock' }
+          - { label: 'Exemple', entity: 'Exemple', icon: 'terminal' }
+          

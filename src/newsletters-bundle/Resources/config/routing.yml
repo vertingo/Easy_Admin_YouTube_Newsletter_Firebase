@@ -1,0 +1,15 @@
+usn_newsletter_subscribe:
+    path:  /newsletter/subscribe
+    defaults: { _controller: NewsletterBundle:Default:subscribe }
+
+usn_newsletter_complete:
+    path:  /newsletter/complete
+    defaults: { _controller: NewsletterBundle:Default:complete }
+
+usn_newsletter_unsubscribe:
+    path:     /newsletter/unsubscribe/{access_key}
+    defaults: { _controller: NewsletterBundle:Default:unsubscribe }
+
+usn_newsletter_unsubscribe_complete:
+    path:     /newsletter/unsubscribe_complete/{access_key}
+    defaults: { _controller: NewsletterBundle:Default:unsubscribeComplete }

@@ -1,0 +1,34 @@
+VideoPlayerBundle\Entity\YouTubeInfos:
+    type: entity
+    table: null
+    #repositoryClass: VideoPlayerBundle\Repository\YouTubeInfosRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        idyoutube:
+            type: string
+            length: 255
+            unique: true
+        titleyoutube:
+            type: string
+            length: 255
+        subscribercount:
+            type: integer
+        viewcount:
+            type: integer
+        videocount:
+            type: integer
+        channeldescription:
+            type: string
+            length: 1000
+        customurl:
+            type: string
+            length: 255
+        username:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

@@ -1,0 +1,31 @@
+VideoPlayerBundle\Entity\YouTubeAnalytics:
+    type: entity
+    table: null
+    repositoryClass: VideoPlayerBundle\Repository\YouTubeAnalyticsRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        day:
+            type: string
+            length: 255
+        views:
+            type: integer
+        estimatedMinutesWatched:
+            type: integer
+        averageViewDuration:
+            type: integer
+        averageViewPercentage:
+            type: float
+        subscribersGained:
+            type: integer
+        likes:
+            type: integer
+        dislikes:
+            type: integer
+        shares:
+            type: integer
+    lifecycleCallbacks: {  }

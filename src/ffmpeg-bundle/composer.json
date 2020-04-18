@@ -1,0 +1,26 @@
+{
+    "name": "sujayjaju/ffmpeg-bundle",
+    "description": "Symfony bundle to provide PHP-FFmpeg (https://github.com/PHP-FFmpeg/PHP-FFmpeg) as a Symfony service",
+    "keywords": ["ffmpeg", "multimedia","php-ffmpeg"],
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "require": {
+        "php-ffmpeg/php-ffmpeg": "0.6.*@dev"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Robert Gruendler",
+            "email": "r.gruendler@gmail.com"
+        },
+        {
+            "name": "Sujay Jaju",
+            "email": "sujay.jaju@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "sujayjaju\\FFmpegBundle": "" }
+    },
+    "target-dir": "sujayjaju/FFmpegBundle"
+
+}

@@ -1,0 +1,23 @@
+services:
+    file_type_extension:
+        class: FileManagerBundle\Twig\FileTypeExtension
+        tags:
+            - { name: twig.extension }
+        arguments: ['@file_type_service']
+        public: true
+
+    file_type_service:
+        class: FileManagerBundle\Service\FileTypeService
+        arguments: ['@router']
+        public: true
+
+    order_extension:
+        class: FileManagerBundle\Twig\OrderExtension
+        tags:
+            - { name: twig.extension }
+        arguments: ['@router']
+        public: true
+
+    custom_service:
+            class: FileManagerBundle\Service\CustomService
+            arguments: ['@security.token_storage']

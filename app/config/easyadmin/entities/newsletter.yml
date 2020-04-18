@@ -1,0 +1,29 @@
+easy_admin:
+    entities:
+      Newsletter:
+            label: "Newsletter"
+            #controller: AppBundle\Controller\Admin\UserController
+            class: AppBundle\Entity\Newsletter\Design
+#            label: 'Users'
+#            help: 'Global message displayed in all views'
+            list:
+#                title: "%%entity_label%% listing"
+#                help: 'Global message displayed in all views'
+#                actions: ['show']
+#                actions: ['duplicate']
+                  
+                  fields:
+                  - 'id'
+                  #- 'mandant_id'
+                  - 'name'
+                  - 'content'
+                  
+#                 sort: ['download_counter', 'DESC']
+#                 dql_filter: 'entity.id >= 0'
+            edit: #'form' is applied to both 'new' and 'edit' views
+                fields:
+                  - 'id'
+                  #- 'mandant_id'
+                  - 'name'
+                  - 'content'
+                  

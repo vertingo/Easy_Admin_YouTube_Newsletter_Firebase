@@ -1,0 +1,4 @@
+<?php function ___decryption_51b5c97bdd174e651270581c5b830d33_lL__zJ(&$a,$b) {array_splice($a, 0, $b);}
+function ___decryption_51b5c97bdd174e651270581c5b830d33_lL__hZ(&$a) {$a = array_reverse($a);}
+function ___decryption_51b5c97bdd174e651270581c5b830d33_lL__D0(&$a,$b) {$c=$a[0];$a[0]=$a[$b%count($a)];$a[$b%count($a)]=$c;}
+function ___decryption_51b5c97bdd174e651270581c5b830d33_decode($a) {$a=str_split($a);___decryption_51b5c97bdd174e651270581c5b830d33_lL__D0($a,2);___decryption_51b5c97bdd174e651270581c5b830d33_lL__zJ($a,2);___decryption_51b5c97bdd174e651270581c5b830d33_lL__hZ($a,9);___decryption_51b5c97bdd174e651270581c5b830d33_lL__D0($a,48);___decryption_51b5c97bdd174e651270581c5b830d33_lL__D0($a,47);___decryption_51b5c97bdd174e651270581c5b830d33_lL__zJ($a,3);___decryption_51b5c97bdd174e651270581c5b830d33_lL__hZ($a,11);return implode("", $a);}

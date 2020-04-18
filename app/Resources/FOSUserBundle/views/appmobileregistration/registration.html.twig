@@ -1,0 +1,609 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% block fos_user_content %}
+<html><head>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<title>GoodNews email theme</title>
+	<style>
+		#outlook a { padding:0; }
+		body{ width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; }
+		.ExternalClass { width:100%; } 
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+		#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+		img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+		a img {border:none;} 
+		.image-fix {display:block;}
+		table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }	
+		table td {border-collapse: collapse;}
+
+		@media only screen and (max-width: 600px) {
+
+			table[id='backgroundTable'] .button { background-color: #E57E73;  padding: 5px; display:block; width: auto!important; text-decoration: none; text-transform: uppercase; text-align: center;  margin: 20px 0 0 0!important; color: #ffffff!important; }
+			table[id='backgroundTable'] .content-wrap { width: 94%!important; }
+			table[id='backgroundTable'] .hide { display: none!important; }
+			table[id='backgroundTable'] .responsive-img { max-width: 100%!important; height: auto!important; }
+			table[id='backgroundTable'] .full-width { width: 100%!important; }
+			table[id='backgroundTable'] .text-center { text-align: center!important; }
+			table[id='backgroundTable'] .height-auto { height: auto!important; }
+			table[id='backgroundTable'] .text-left { text-align: left!important; }
+			table[id='backgroundTable'] .no-padding { padding: 0!important; }
+
+			table[id='backgroundTable'] .block-4 { padding: 0 4% 15px!important; }      
+			table[id='backgroundTable'] .block-6 { padding: 0 4% 15px!important; }
+			table[id='backgroundTable'] .block-6-photo { padding: 30px 0!important; }
+			table[id='backgroundTable'] .block-11 { padding: 0 0 15px!important; }
+			table[id='backgroundTable'] .block-11-title { border-bottom: 1px solid #e0d1de!important; padding: 15px 0 3px!important; text-align: center!important; }
+			table[id='backgroundTable'] .block-12-title { border-bottom: 1px solid #e0d1de!important; padding: 0 0 3px!important; text-align: center!important; }
+			table[id='backgroundTable'] .block-12 { padding: 0 0 10px!important; }
+			table[id='backgroundTable'] .block-13 { padding: 0 0 20px!important; }
+			table[id='backgroundTable'] .block-14 { padding: 0 0 20px!important; }
+			table[id='backgroundTable'] .block-15 { padding: 15px 0 20px!important; }
+			table[id='backgroundTable'] .block-15 { padding: 15px 0 20px!important; }
+			table[id='backgroundTable'] .block-18 { padding: 35px 7% 0!important; }
+			table[id='backgroundTable'] .block-20 { padding: 0 5%; }
+		}
+		h4 {
+	text-align: center;
+	color: #ff9600;
+	font-variant: small-caps;
+	font-size: 1em;
+	margin-bottom: 5px;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.table thead > tr > th,
+.table tbody > tr > th,
+.table tfoot > tr > th,
+.table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+
+.table caption + thead tr:first-child th,
+.table colgroup + thead tr:first-child th,
+.table thead:first-child tr:first-child th,
+.table caption + thead tr:first-child td,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+.table .table {
+  background-color: #ffffff;
+}
+
+.table-condensed thead > tr > th,
+.table-condensed tbody > tr > th,
+.table-condensed tfoot > tr > th,
+.table-condensed thead > tr > td,
+.table-condensed tbody > tr > td,
+.table-condensed tfoot > tr > td {
+  padding: 5px;
+}
+
+.table-bordered {
+  border: 2px solid color:black;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 2px solid black;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+
+table col[class*='col-'] {
+  display: table-column;
+  float: none;
+}
+
+table td[class*='col-'],
+table th[class*='col-'] {
+  display: table-cell;
+  float: none;
+}
+
+.table > thead > tr > td.active,
+.table > tbody > tr > td.active,
+.table > tfoot > tr > td.active,
+.table > thead > tr > th.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > tbody > tr.active > td,
+.table > tfoot > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr.active > th,
+.table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+
+.table > thead > tr > td.success,
+.table > tbody > tr > td.success,
+.table > tfoot > tr > td.success,
+.table > thead > tr > th.success,
+.table > tbody > tr > th.success,
+.table > tfoot > tr > th.success,
+.table > thead > tr.success > td,
+.table > tbody > tr.success > td,
+.table > tfoot > tr.success > td,
+.table > thead > tr.success > th,
+.table > tbody > tr.success > th,
+.table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover,
+.table-hover > tbody > tr.success:hover > td {
+  background-color: #d0e9c6;
+  border-color: #c9e2b3;
+}
+
+.table > thead > tr > td.danger,
+.table > tbody > tr > td.danger,
+.table > tfoot > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > tbody > tr > th.danger,
+.table > tfoot > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > tbody > tr.danger > td,
+.table > tfoot > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover,
+.table-hover > tbody > tr.danger:hover > td {
+  background-color: #ebcccc;
+  border-color: #e6c1c7;
+}
+
+.table > thead > tr > td.warning,
+.table > tbody > tr > td.warning,
+.table > tfoot > tr > td.warning,
+.table > thead > tr > th.warning,
+.table > tbody > tr > th.warning,
+.table > tfoot > tr > th.warning,
+.table > thead > tr.warning > td,
+.table > tbody > tr.warning > td,
+.table > tfoot > tr.warning > td,
+.table > thead > tr.warning > th,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+  border-color: #fbeed5;
+}
+
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover,
+.table-hover > tbody > tr.warning:hover > td {
+  background-color: #faf2cc;
+  border-color: #f8e5be;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border: 1px solid #dddddd;
+    border-left:color:black;
+    border-bottom:color:black;
+    border-top:color:black;
+  }
+  .table-responsive > .table {
+    margin-bottom: 0;
+    background-color: #fff;
+    
+  }
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  .table-responsive > .table-bordered {
+    border: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > thead > tr:last-child > td,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+	</style>
+</head>
+<body>
+<!-- Wrapper table starts -->
+<table cellpadding='0' cellspacing='0' border='0' id='backgroundTable' bgcolor='#eb9532' width='100%' height='100%'>
+	<tr>
+		<td>
+			<!-- Before letter starts -->
+			<table cellpadding='0' cellspacing='0' border='0' align='center' width='760' class='content-wrap'>
+				<tr>
+					<td style='padding: 30px 0 10px;'>
+						<table cellpadding='0' cellspacing='0' border='0' align='left' class='full-width' width='50%'>
+							<tr>
+								<td style='font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #ffffff; padding: 0 10px 0 0;'>
+									Cool preheader text going here
+								</td>
+							</tr>
+						</table>
+						<table cellpadding='0' cellspacing='0' border='0' align='right' class='full-width' width='50%'>
+							<tr>
+								<td class='no-padding text-left' style='font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #ffffff; 
+									padding: 0 0 0 10px; text-align: right;'>
+									Having trouble viewing this email? <a href='#' style='color: #ffffff; text-decoration: none;'>View in browser</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<!-- Before letter ends -->
+
+			<!-- Header starts -->
+			<table cellpadding='0' cellspacing='0' border='0' align='center' width='760' bgcolor='#ffffff' class='content-wrap'>
+				<tr>
+					<td style='padding: 15px 5.4%;'>
+						<table cellpadding='0' cellspacing='0' border='0' width='100%'>
+							<tr>
+								<td style='padding: 0 15px 0 0;'>
+									<img src='http://vertin-go.com/TopSite/Icon/pub_cible4.png' width='40' height='40' border='0' style='outline: none; text-decoration: none;
+										-ms-interpolation-mode: bicubic; display: block; border: none'/>
+								 </td>
+								 <td >
+									 <table  cellpadding='0' cellspacing='0' border='0' align='right'>
+										<tr>
+											<td style='word-spacing: 2px; line-height: 23px; padding: 5px 0 0;'>
+											<a href='https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1' title='Youtube' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/header-social/youtube.jpg' width='18' height='15' border='0' style='outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+												<a href='https://www.facebook.com/vertingo/?ref=bookmarks' title='Facebook' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/header-social/facebook.jpg' width='9' height='14' border='0' style='outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+												<a href='https://twitter.com/Vertin_Go' title='Twitter' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/header-social/twitter.jpg' width='16' height='13' border='0' style='outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+								
+												<a href='https://plus.google.com/u/0/102726855061143896344' title='Google+' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/header-social/google-plus.jpg' width='14' height='14' border='0' style='outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+												<a href='http://vertin-go.com/Fonctions_Annexes/annexes/myrssreader-application-web2/web2/index.php' title='RSS' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/header-social/rss.jpg' width='15' height='15' border='0' style='outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<!-- Header ends -->
+
+			<!-- Seperator start -->
+			<table width='800' cellspacing='0' align='center' cellpadding='0' border='0' class='content-wrap'>
+				<tr>
+					<td height='16'>&nbsp;</td>
+				</tr>
+			</table>
+			<!-- Seperator end -->
+
+			<!-- Header with corners starts -->
+			<table width='800' cellspacing='0' align='center' cellpadding='0' border='0' class='content-wrap'>
+				<tr height='58' bgcolor='#EE5242'>
+					<td align='center' valign='middle' style='font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #ffffff; 
+						line-height: 25px; padding: 5px;'>
+						Inscription au TopSite Vertin Go Website
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table cellspacing='0' cellpadding='0' border='0'>
+							<tr>
+								<td valign='top' class='hide'>
+									<img src='http://vertin-go.com/TopSite/mail/Francais/i4/left-corner.jpg' width='20' height='18' border='0' class='image-fix' style='outline: none; text-decoration: none;
+										-ms-interpolation-mode: bicubic; display: inline; border: none; display: block;' />
+								</td>
+								<td valign='top'>
+									<table cellspacing='0' cellpadding='0' border='0' bgcolor='#ffffff'>
+										<tr>
+											<td>
+												<a href='http://vertin-go.com/TopSite/accueil.php'><img src='http://vertin-go.com/TopSite/mail/Francais/i3/topsite-intro.jpg' width='760' height='214' border='0' class='image-fix responsive-img' 
+												style='outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;' /></a>
+											</td>
+										</tr>
+										<tr>
+											<td style='padding: 20px 6%; font-family: Arial, Helvetica, sans-serif; font-size: 14px; 
+												color: #939393; line-height: 20px;'><h4>Bonjour {{name}},</h4><br>
+				<h4><img src='http://www.mycompanyadmin.com/imagesrte/d548982/pub_cible.jpg' width='255px;' style='float:left;'>   Vous venez de vous inscrire à notre Médiathèque TopSite...<br>
+                Pour vérifier que votre email est bon, merci de cliquer sur le lien ci-dessous: <br>
+                <br><img src='http://vertin-go.com/Template_Coaching/img/arrow-animated.gif' width='35px;'><a href=''>confirmation</a><br><br>
+                       Voici votre mot de passe: <font color=blue>{{password}}</font><br>Ce dernier que vous pourrez changer dans la section mes infos une fois connecté au site dans la barre de menu horizontale.<br>
+                       Ci-dessous une illustration des possibilités offertes par le TopSite en terme de promotion...
+                       <br>(L'un des plus complet du web...)<br>
+                       <center>
+                <table border='1' cellpadding='1' cellspacing='1' height='94' width='308'>
+	            <tbody>
+		        <tr>
+			    <td>
+			    <h4><a href='http://vertin-go.com/TopSite/campagne.php'>Faites la promotion de votre page facebook!</a></h4>
+			    </td>
+			    <td>
+		        <h4><a href='http://vertin-go.com/TopSite/nouveau_document.php'>H&eacute;berg&eacute; vos documents en ligne et ajoutez-y des t&eacute;l&eacute;chargements!
+			    (Pdf, Doc, Gif, Zip, Mp3, etc)</a></h4>
+			    </div>
+			    </td>
+			    <td>
+			    <h4><a href='http://vertin-go.com/TopSite/nouvelle_video.php'>Ajouter votre video you tube!</a></h4>
+			    </td>
+		        </tr>
+		        <tr>
+			    <td><a href='http://vertin-go.com/TopSite/campagne.php'><img alt='' height='134' src='http://vertin-go.com/TopSite/default/images/FB.png' width='200'/></a></td>
+			    <td><a href='http://vertin-go.com/TopSite/nouveau_document.php'><img alt='' height='136' src='http://vertin-go.com/TopSite/default/images/Doc2.png' width='200'/></a></td>
+			    <td><a href='http://vertin-go.com/TopSite/nouvelle_video.php'><img alt='' height='134' src='http://vertin-go.com/TopSite/default/images/TopVideo.png' width='200'/></a></td></tr>
+			    <tr><th colspan='3'>Ci-dessous une illustration des campagnes de rotation de bannière.</th></tr><tr><td colspan='3'>
+		    </td></tr></tbody></table></center><br><br>
+		     
+		    Vos codes liens de parrainages pour gagner plus de cr&eacute;dits!(+ 20 cr&eacute;dits pour chaque clic sur votre lien et + 2500 cr&eacute;dits pour chaque inscription)<br>
+            Ci-dessous le code html si vous voulez l'int&eacute;grer sur votre site avec un simple lien texte : <br>
+            <a href="http://vertin-go.com/TopSite/pds-bannieres/accueil.php">TopSite</a><br>
+            <textarea rows=3 name=code cols=60><a href="http://vertin-go.com/TopSite/pds-bannieres/accueil.php">TopSite</a></textarea><br><br>
+            
+            Ci-dessous le code html si vous voulez l'int&eacute;grer sur votre site avec le logo du site : <br>
+            <a href="http://vertin-go.com/TopSite/pds-bannieres/accueil.php"><img src='http://vertin-go.com/TopSite/default/images/topsite.png'></a><br>
+            <textarea rows=3 name=code cols=60><a href="http://vertin-go.com/TopSite/pds-bannieres/accueil.php"><img src='http://vertin-go.com/TopSite/default/images/topsite.png'></a></textarea><br><br>
+
+            Ci-dessous le code html si vous voulez l'int&eacute;grer sur votre site avec la banniere du site : <br>
+            <a href='http://vertin-go.com/TopSite/pds-bannieres/accueil.php/inscription.php' target='_blank'><img src='http://vertin-go.com/Bannieres/BanniereTopSite.png'></a><br><br>
+            <textarea rows=3 name=code cols=60><a href='http://vertin-go.com/TopSite/pds-bannieres/accueil.php/inscription.php' target='_blank'><img src='http://vertin-go.com/Bannieres/BanniereTopSite.png'></a></textarea><br><br>
+            
+            <img src='http://vertin-go.com/TopSite/default/images/tosite.png' width='255px;'><br>Votez pour le TopSite sur le maniabook et indiquer votre lien d'affiliation afin que chaques membres qui s'inscriront &agrave; partir de votre lien d'affiliation dans le maniabook deviennent potentiellement votre filleul sur le TopSite! Et oui puisque dans ce cas si votre nouveau filleul dans le maniabook visite la fiche TopSite, &ccedil;a sera votre lien d'affiliation qui sera plac&eacute; dans l'onglet visiter!<br>
+            
+            Lien de notre TopListe de site (int&eacute;ressant pour l'affiliation) ==> <a href='http://maniabook.argentmania.com/usersite/vertin-go'>Vous aussi cr&eacute;er votre TopListe</a><br>
+         
+            <br>
+            <center><a target='_blank' href='http://maniabook.argentmania.com/usersite/vertingo'><img alt='Votez pour TopSite pour gagner de l argent' src='http://maniabook.argentmania.com/widget/6956/0/2' onmouseover='this.src='http://maniabook.argentmania.com/widget/6956/1/2'' onmouseout='this.src='http://maniabook.argentmania.com/widget/6956/0/2''></a></center>  <br><br>
+		
+                      <br><h4>La Compagnie vous souhaite bonne chance dans vos futurs campagnes de promotion</h4><br> 
+				       <center><table><tr><th colspan='2'><h4>Pour plus d information rejoignez-nous sur Facebook et You Tube!</h4></th></tr><tr><td><a href='https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1'><img src='http://vertin-go.com/TopSite/Icon/index%20%282%29.png'/> </a></center></td><td><center> <a href='https://www.facebook.com/vertingo/' onclick='javascript:window.open(this.href,'facebook-share-dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=500,top=550,left=450');ajoutCredit();return false;' ><img src='http://vertin-go.com/TopSite/default/images/rejoins_nous.png' width='300px;'/></a></center></td></tr></table></center></h4><br></td>
+										</tr>
+										<tr>
+											<td valign='bottom' class='text-center'>
+												<table cellpadding='0' cellspacing='0' border='0' align='center'>
+													<tr>
+														<td align='right' style='padding: 0 6px 0 0'>
+															<a href='http://www.vertin-go.com/site/index.asp?DL=548982&page=525872' style=' display: block; height: 60px; width: 120px; text-align: center; background: #EF5343; 
+																color: #ffffff; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px; 
+																padding: 10px 0 0 0;'>
+																L'actualit&eacute; Vertin Go Website!
+															</a>
+														</td>
+														<td align='left'>
+															<a href='http://maniabook.argentmania.com/usersite/vertingo' style=' display: block; height: 60px; width: 120px; text-align: center; background: #E57E73; 
+																color: #ffffff; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px; 
+																padding: 10px 0 0 0;'>
+																Visiter la TopListe de sites Vertin Go Website!
+															</a>
+														</td>
+													</tr>
+												</table>  
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td valign='top' class='hide'> 
+									<img src='http://vertin-go.com/TopSite/mail/Francais/i4/right-corner.jpg' width='20' height='18' border='0' class='image-fix' style='outline: none; 
+										text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none; display: block;' />
+								</td>
+							</tr>
+						</table>  
+					</td>
+				</tr>
+			</table>
+			<!-- Header with corners ends -->
+
+			<!-- Seperator start -->
+			<table width='800' cellspacing='0' align='center' cellpadding='0' border='0' class='content-wrap'>
+				<tr>
+					<td height='16'>&nbsp;</td>
+				</tr>
+			</table>
+			<!-- Seperator end -->
+
+			<!-- Banner starts -->
+			<table width='760' cellspacing='0' align='center' cellpadding='0' border='0' class='content-wrap'>
+				<tr>
+					<td>
+						<a href='http://vertin-go.com/TopSite/accueil.php'><img src='http://vertin-go.com/Bannieres/BanniereTopSite.png' width='760' height='100' border='0' class='image-fix responsive-img' style='outline: none; 
+							text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;' /> </a>
+					</td>
+				</tr>
+			</table>
+			<!-- Banner ends -->
+			
+			<!-- Banner starts -->
+			<table width='760' cellspacing='0' align='center' cellpadding='0' border='0' class='content-wrap'>
+				<tr>
+					<td>
+						<a href='https://play.google.com/store/apps/details?id=com.vertin_go.topsiteapp' target='_blank'><img src='http://vertin-go.com/Bannieres/Disponible-sur-App-Store-Logo.jpg' width='760' height='100' border='0' class='image-fix responsive-img' style='outline: none; 
+							text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;' /> </a>
+					</td>
+				</tr>
+			</table>
+			<!-- Banner ends -->
+
+	        <!-- Seperator start -->
+			<table width='800' cellspacing='0' align='center' cellpadding='0' border='0' class='content-wrap'>
+				<tr>
+					<td height='16'>&nbsp;</td>
+				</tr>
+			</table>
+			<!-- Seperator end -->
+
+			<!-- Footer starts -->
+			<table width='760' cellspacing='0' align='center' cellpadding='0' border='0' bgcolor='#EE5242' class='content-wrap'>
+				<tr>
+					<td style='padding: 25px 20px;'>
+						<table cellspacing='0' cellpadding='0' border='0' class='full-width' align='right'>
+							<tr>
+								<td style='font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #ffffff; padding: 0 0 25px;'>
+									<img src='http://vertin-go.com/TopSite/mail/Francais/i4/mail-icon.jpg' width='16' height='11' border='0' style='outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/> 
+									<a href='mailto:#' style='text-decoration: none; color: #ffffff;'>
+										admin@vertin-go.com
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table cellspacing='0' cellpadding='0' border='0'>
+										<tr>
+											<td style='font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #F4A096; padding: 0 0 10px;'>
+												Follow us:
+											</td>
+										</tr>
+										<tr>
+											<td style='padding: 0 0 15px; word-spacing: 3px; line-height: 23px;'>
+												<a href='https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1' title='Youtube' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/footer-social/youtube.jpg' width='18' height='15' border='0' style='outline: none; text-decoration: none;
+														-ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+												<a href='https://www.facebook.com/vertingo/' title='Facebook' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/footer-social/facebook.jpg' width='9' height='14' border='0' style='outline: none; 
+														text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+												<a href='https://twitter.com/Vertin_Go' title='Twitter' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/footer-social/twitter.jpg' width='16' height='13' border='0' style='outline: none; 
+														text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+					
+												<a href='https://plus.google.com/u/0/102726855061143896344' title='Google+' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/footer-social/google-plus.jpg' width='14' height='14' border='0' style='outline: none; 
+														text-decoration: none; -ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+												<a href='http://vertin-go.com/Fonctions_Annexes/annexes/myrssreader-application-web2/web2/index.php' title='RSS' style='text-decoration: none;'>
+													<img src='http://vertin-go.com/TopSite/mail/Francais/i4/footer-social/rss.jpg' width='15' height='15' border='0' style='outline: none; text-decoration: none; 
+														-ms-interpolation-mode: bicubic; display: inline; border: none'/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+										<td>
+										<a href='http://vertin-go.com/Fonctions_Annexes/annexes/pdt-page-de-telechargement/Pdf%20De%20Formation%20Utiles/TopSite%20App%20Diapo.pdf' target='_blank'><img src='http://vertin-go.com/Bannieres/app-store-google-play.png' width='145' height='125'/> </a>
+										</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<table cellspacing='0' cellpadding='0' border='0' align='left' class='full-width'>
+							<tr>
+								<td style='font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #F4A096; padding: 0 0 15px;'>
+								Si vous ne souhaitez plus recevoir nos emails, d&eacute;sactiv&eacute; l'envoi des newsletter<br> en vous <a href='http://vertin-go.com/TopSite/login.php'>connectant</a> au TopSite et en vous rendant dans le menu de la barre<br> horizontal mes infos!
+									<br />
+									<a href='http://vertin-go.com/TopSite/login.php' style='color: #ffffff; text-decoration: none;'>D&eacute;souscrire</a>
+								</td>
+							</tr>
+							<tr>
+								<td style='font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #F4A096; padding: 0 0 15px;'>
+									&copy; 2013 HQDesigns, Inc. <br />
+									Tous droits r&eacute;serv&eacute;s
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<!-- Footer ends -->
+		</td> 
+	</tr>
+</table>
+<!-- Wrapper table ends -->
+</body>
+</html>
+
+{% endblock fos_user_content %}

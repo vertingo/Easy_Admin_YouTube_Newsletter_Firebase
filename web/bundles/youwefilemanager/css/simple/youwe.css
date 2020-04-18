@@ -1,0 +1,70 @@
+#FileManagerContainer .FileManagerList .FileManagerHead {
+    background: #ec1946;
+    color: #ffffff;
+}
+
+#FileManagerContainer .FileManagerHead svg path.svg-text,
+#FileManagerContainer .FileManagerHead svg path.svg-logo {
+    fill: #ffffff;
+}
+
+/**
+ * Directory List Colors
+ */
+
+.modal-dialog .modal-header,
+.panel-info > .panel-heading {
+    border: 0;
+}
+
+.panel-info > .panel-heading,
+.panel-info > .panel-heading > button,
+.modal-dialog .modal-header,
+.modal-dialog .modal-header > button,
+#FileManagerContainer .FileManagerListDirs,
+.panel-default > .panel-heading,
+#Dirs .panel {
+    background: #323232;
+    color: #ffffff;
+}
+
+#FileManagerContainer .FileManagerListDirs a,
+#FileManagerContainer .FileManagerListDirs .panel-body > ul {
+    color: #ffffff;
+}
+
+/**
+ * Directory List Border Colors
+ */
+#Dirs .space-fill,
+#FileManagerContainer .FileManagerListDirs li:not(.dir_active) > span > span.yw_file_manager_dir,
+#FileManagerContainer .FileManagerListDirs li.dir_active > span > span.yw_file_manager_dir {
+    border-color: #ec1946;
+}
+
+/**
+ * Button colors
+ */
+.ToolBar .btn {
+    background-color: inherit;
+    color: inherit;
+    border-color: inherit;
+}
+
+.ToolBar .btn:hover,
+.ToolBar .btn:active,
+.ToolBar .btn:focus {
+    background-color: #ec1946;
+}
+
+/**
+* Files action colors
+*/
+#FileManagerContainer .FileManagerListItems .item_selected {
+    background-color: #e5e5e5;
+}
+
+#FileManagerContainer .FileManagerListItems .item_selected:hover,
+div.block_row.item_selected:hover {
+    background-color: #d6d6d6;
+}

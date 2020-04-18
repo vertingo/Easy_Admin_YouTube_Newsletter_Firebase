@@ -1,0 +1,79 @@
+{% extends 'PetkoparaCrudGeneratorBundle::base.html.twig' %}
+
+{% block title %}
+{{ parent() }} - exemple
+{% endblock %}
+
+{% block body %}
+
+<div id="top" class="row">
+    <div class="page-header">
+        <h2>View exemple <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> </h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <p><strong>Id</strong></p>
+        <p>
+            {{ exemple.id }}
+        </p>
+
+    </div>
+    <div class="col-md-6">
+        <p><strong>Media</strong></p>
+        <p>
+            
+        </p>
+
+    </div>
+    <div class="col-md-6">
+        <p><strong>Mediacollection</strong></p>
+        <p>
+            {{ exemple.mediaCollection }}
+        </p>
+
+    </div>
+    <div class="col-md-6">
+        <p><strong>Image</strong></p>
+        <p>
+            {{ exemple.image }}
+        </p>
+
+    </div>
+    <div class="col-md-6">
+        <p><strong>Contract</strong></p>
+        <p>
+            {{ exemple.contract }}
+        </p>
+
+    </div>
+   
+    <div class="col-md-6">
+        <p><strong>Date</strong></p>
+        <p>
+            {% if exemple.date %}{{ exemple.date|date('Y-m-d') }}{% endif %}
+        </p>
+
+    </div>
+    <div class="col-md-6">
+        <p><strong>Position</strong></p>
+        <p>
+            {{ exemple.position }}
+        </p>
+
+    </div></div>
+
+<hr/>
+
+
+<div class="form-group">
+    <a class="btn btn-default" href="{{ path('liste_medias') }}">
+        <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+        Back to list
+    </a>
+</div>
+
+
+{% endblock %}
+

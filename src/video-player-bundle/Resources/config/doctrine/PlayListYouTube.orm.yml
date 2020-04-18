@@ -1,0 +1,29 @@
+VideoPlayerBundle\Entity\PlayListYouTube:
+    type: entity
+    table: null
+    repositoryClass: VideoPlayerBundle\Repository\PlayListYouTubeRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        playlistid:
+            type: string
+            length: 255
+            unique: true
+        playlisttitle:
+            type: string
+            length: 255
+        playlistthumbnails:
+            type: string
+            length: 255
+        enabled:
+            type: boolean
+            nullable: true
+        playlistusername:
+            type: string
+            length: 255
+            nullable: true
+    lifecycleCallbacks: {  }

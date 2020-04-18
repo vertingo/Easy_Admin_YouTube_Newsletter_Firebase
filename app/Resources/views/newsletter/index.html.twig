@@ -1,0 +1,9 @@
+{% extends '@EasyAdmin/default/layout.html.twig' %}
+{% block content_title %}{{ 'Newsletter'|trans }}{% endblock %}
+
+{% block main %}
+
+    <iframe id="myframe" src="{{ path('newsletters_admin2') }}" width="100%" height="600"
+            frameborder="0"></iframe>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+VideoPlayerBundle\Entity\MainVideo:
+    type: entity
+    table: null
+    #repositoryClass: Repository\MainVideoRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO   
+    lifecycleCallbacks: {  }

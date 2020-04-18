@@ -1,0 +1,33 @@
+easy_admin:
+    entities:
+        PlayListYouTube:
+            disabled_actions: ['delete','edit','new']
+            label: "YouTubePlayList"
+          #  controller: VideoPlayerBundle\Controller\Admin\UserController
+            class: VideoPlayerBundle\Entity\PlayListYouTube
+#            label: 'Users'
+#            help: 'Global message displayed in all views'
+            list:
+#                title: "%%entity_label%% listing"
+#                help: 'Global message displayed in all views'
+#                actions: ['show']
+#                actions: ['duplicate']
+                fields:
+                  - 'playlisttitle'
+                  - { property: 'playlistthumbnails', type: 'image'}
+                  - { property: 'enabled', type: 'toggle'}
+                 # -  'playlistthumbnails'
+                 # -  'enabled'
+                  
+#                sort: 'createdAt'
+#                dql_filter: 'entity.id >= 0'
+            form: #'form' is applied to both 'new' and 'edit' views
+                fields:
+                  - 'playlisttitle'
+                  - { property: 'playlistthumbnails', type: 'image'}
+                  - { property: 'enabled', type: 'toggle'}
+                 # - 'playlistthumbnails'
+                 # - 'enabled'
+                 
+                    
+                   

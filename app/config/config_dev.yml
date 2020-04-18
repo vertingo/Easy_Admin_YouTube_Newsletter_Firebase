@@ -1,0 +1,152 @@
+imports:
+    - { resource: config.yml }
+
+framework:
+    router:
+        resource: '%kernel.project_dir%/app/config/routing_dev.yml'
+        strict_requirements: true
+    profiler: { only_exceptions: false }
+
+web_profiler:
+    toolbar: true
+    intercept_redirects: false
+
+monolog:
+    handlers:
+        main:
+            type: stream
+            path: '%kernel.logs_dir%/%kernel.environment%.log'
+            level: debug
+            channels: ['!event']
+        console:
+            type: console
+            process_psr_3_messages: false
+            channels: ['!event', '!doctrine', '!console']
+        # To follow logs in real time, execute the following command:
+        # `bin/console server:log -vv`
+        server_log:
+            type: server_log
+            process_psr_3_messages: false
+            host: 127.0.0.1:9911
+        # uncomment to get logging in your browser
+        # you may have to allow bigger header sizes in your Web server configuration
+        #firephp:
+        #    type: firephp
+        #    level: info
+        #chromephp:
+        #    type: chromephp
+        #    level: info
+
+swiftmailer:
+    mailers:
+        defaultMailer:
+            delivery_address: mail-to-dev-account-spool@your.domain.com
+
+        immediateMailer:
+            delivery_address: mail-to-dev-account-nospool@your.domain.com
+
+
+youwe_file_manager:
+    upload_path: %kernel.root_dir%/../web/uploads
+    full_exception: false
+    theme:
+        css: "/bundles/youwefilemanager/css/simple/default.css"
+        template: "YouweFileManagerBundle:FileManager:file_manager.html.twig"
+    mime_allowed:
+        - 'image/png'
+        - 'image/jpg'
+        - 'image/jpeg'
+        - 'image/gif'
+        - 'application/pdf'
+        - 'application/ogg'
+        - 'video/mp4'
+        - 'application/zip'
+        - 'multipart/x-zip'
+        - 'application/rar'
+        - 'application/x-rar-compressed'
+        - 'application/x-zip-compressed'
+        - 'application/tar'
+        - 'application/x-tar'
+        - 'text/plain'
+        - 'text/x-asm'
+        - 'application/octet-stream'
+
+# Doctrine Configuration
+doctrine:
+    dbal:
+        connections:
+            default:
+                driver:   pdo_mysql
+                host:     "%database_host%"
+                port:     "%database_port%"
+                dbname:   "%database_name%"
+                user:     "%database_user%"
+                password: "%database_password%"
+                charset:  UTF8
+            mandantA:
+                driver:   %database_driver_mandanta%
+                host:     %database_host_mandanta%
+                port:     %database_port_mandanta%
+                dbname:   %database_name_mandanta%
+                user:     %database_user_mandanta%
+                password: %database_password_mandanta%
+                charset:  UTF8
+            mandantB:
+                driver:   %database_driver_mandantb%
+                host:     %database_host_mandantb%
+                port:     %database_port_mandantb%
+                dbname:   %database_name_mandantb%
+                user:     %database_user_mandantb%
+                password: %database_password_mandantb%
+        types:
+                    media: Artgris\Bundle\MediaBundle\Type\MediaType
+                    media_collection: Artgris\Bundle\MediaBundle\Type\MediaCollectionType
+                    json: Sonata\Doctrine\Types\JsonType
+                    nostreamblob: NewslettersBundle\DBAL\Types\NoStreamBlobType
+        # if using pdo_sqlite as your database driver:
+        #   1. add the path in parameters.yml
+        #     e.g. database_path: "%kernel.root_dir%/../var/data/data.sqlite"
+        #   2. Uncomment database_path in parameters.yml.dist
+        #   3. Uncomment next line:
+        # path:     "%database_path%"
+    orm:
+        entity_managers:
+                default:
+                    connection: default
+                    mappings:
+                        AppBundle: ~
+                       #FOSUserBundle: ~
+                       #ApplicationSonataMediaBundle: ~
+                       #SonataMediaBundle: ~
+                       #SonataClassificationBundle: ~
+                mandantA:
+                    connection: mandantA
+                    mappings:
+                        ibrows_newsletter:
+                            type: annotation
+                            prefix: AppBundle\Entity\Newsletter
+                            dir: "%kernel.root_dir%/../src/AppBundle/Entity/Newsletter"
+                            is_bundle: false
+                mandantB:
+                    connection: mandantB
+                    mappings:
+                        ibrows_newsletter:
+                            type: annotation
+                            prefix: AppBundle\Entity\Newsletter
+                            dir: "%kernel.root_dir%/../src/AppBundle/Entity/Newsletter"
+                            is_bundle: false
+        
+#doctrine_phpcr:
+    #odm:
+        #auto_mapping: true
+        #mappings:
+           #SonataMediaBundle:
+            #   prefix: Sonata\MediaBundle\PHPCR
+          # ApplicationSonataMediaBundle:
+              #  prefix: Application\Sonata\MediaBundle\PHPCR
+
+#nova_ezmailing:
+    #system:
+        #default:
+            #simple_mailer: "swiftmailer.mailer.myfirst_mailer"
+            #mailing_mailer: "swiftmailer.mailer.mysecond_mailer"
