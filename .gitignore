@@ -15,6 +15,7 @@
 !var/SymfonyRequirements.php
 /node_modules/
 /web/bundles/
+/web/ffmpeg/
 !/web/bundles/ibrowsnewsletter
 /vendor/
 !var/data
