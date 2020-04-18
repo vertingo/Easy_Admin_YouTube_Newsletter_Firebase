@@ -10,3 +10,4 @@ de72cc,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/t
 bb78c1,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/manager,1587169603,,200
 eb4a53,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/?conf=default,1587169605,,200
 fba836,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587169607,,200
+6e7e32,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587169901,,200

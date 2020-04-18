@@ -18,6 +18,7 @@ src/AppBundle/Keyfile/topsite-admin-symfony-1219cee3cde9.json
 !/web/bundles/ibrowsnewsletter
 /vendor/
 /web/ffmpeg/
+/web/uploads/
 !var/data
 .idea
 /.php_cs
