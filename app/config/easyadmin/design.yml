@@ -28,7 +28,7 @@ easy_admin: # http://symfony.com/doc/current/bundles/EasyAdminBundle/book/config
               - 'admin/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css'
               - "admin/css/admin.css"
               - 'bundles/artgrismedia/css/media.css'
-              - 'bundles/artgrisfilemanager/libs/blueimp-file-upload/css/jquery.fileupload.css'
+              - 'bundles/filemanager/libs/blueimp-file-upload/css/jquery.fileupload.css'
             js:
               - 'admin/plugins/tinymce/tinymce.min.js'
               - 'admin/plugins/tinymce/jquery.tinymce.min.js'

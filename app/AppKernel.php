@@ -59,6 +59,7 @@ class AppKernel extends Kernel
             new NewsletterBundle\NewsletterBundle(),
             new NewslettersBundle\NewslettersBundle(),
             new Stfalcon\Bundle\TinymceBundle\StfalconTinymceBundle(),
+            //new Artgris\Bundle\FileManagerBundle\ArtgrisFileManagerBundle(),
             //new Novactive\Bundle\eZSEOBundle\NovaeZSEOBundle(),
             //new Ibrows\Bundle\NewsletterBundle\IbrowsNewsletterBundle(),
             //new sujayjaju\FFmpegBundle\PhpFFmpegBundle(),
