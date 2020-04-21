@@ -18,3 +18,6 @@ de21a0,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/d
 1e69e3,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/tools/newsletters,1587170875,,200
 41da63,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/newsletters,1587170877,e93439,200
 e93439,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/newsletters,1587170877,,500
+dcac34,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587171022,,200
+9db509,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587181194,,200
+f7b0aa,::1,GET,http://localhost/symfony-easyadmin-heroku/web/app_dev.php/admin/dashboard/,1587181226,,200
