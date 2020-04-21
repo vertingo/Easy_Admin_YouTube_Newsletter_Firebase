@@ -1,28 +1,51 @@
 {
-  "name": "Easy_Admin_YouTube_Newsletter",
-  "scripts": {},
-  "env": 
-  {
-    "SYMFONY_ENV": 
-    {
-      "required": true
+  "name": "EasyAdminSymfony",
+  "description": "Platform EasyAdmin Youtube Newsletter ",
+  "keywords": [
+    "Symfony",
+    "EasyAdmin"
+  ],
+  "website": "https://symfony-easyadmin-heroku.herokuapp.com/vertingo-website-introduction",
+  "repository": "https://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase.git",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+  "success_url": "/",
+  "scripts": {
+    "postdeploy": ""
+  },
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
     }
   },
-  "formation": 
-  {
-    "web": 
-    {
-      "quantity": 1
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Performance-M"
     }
   },
   "addons": [
-    "heroku-postgresql",
-    "heroku-postgresql",
-    "heroku-postgresql"
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
   ],
   "buildpacks": [
     {
       "url": "heroku/php"
     }
-  ]
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "phpunit"
+      }
+    }
+  }
 }
