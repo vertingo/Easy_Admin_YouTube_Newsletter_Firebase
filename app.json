@@ -1,19 +1,25 @@
 {
   "name": "Easy_Admin_YouTube_Newsletter",
   "scripts": {},
-  "env": {
-    "HEROKU_POSTGRESQL_BLUE_URL": {
+  "env": 
+  {
+    "HEROKU_POSTGRESQL_BLUE_URL": 
+    {
       "required": true
     },
-    "HEROKU_POSTGRESQL_ONYX_URL": {
+    "HEROKU_POSTGRESQL_ONYX_URL": 
+    {
       "required": true
     },
-    "SYMFONY_ENV": "production"{
+    "SYMFONY_ENV": 
+    {
       "required": true
     }
   },
-  "formation": {
-    "web": {
+  "formation": 
+  {
+    "web": 
+    {
       "quantity": 1
     }
   },
