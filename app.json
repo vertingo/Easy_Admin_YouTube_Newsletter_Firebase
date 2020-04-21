@@ -20,6 +20,9 @@
     "WEB_CONCURRENCY": {
       "description": "The number of processes to run.",
       "value": "5"
+    },
+    "SYMFONY_ENV": {
+      "required": true
     }
   },
   "formation": {
