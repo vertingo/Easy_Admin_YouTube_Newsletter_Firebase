@@ -3,11 +3,7 @@
   "scripts": {},
   "env": 
   {
-    "HEROKU_POSTGRESQL_AQUA_URL": 
-    {
-      "required": true
-    },
-    "HEROKU_POSTGRESQL_PURPLE_URL": 
+    "SYMFONY_ENV": 
     {
       "required": true
     }
