@@ -23,6 +23,12 @@
     },
     "SYMFONY_ENV": {
       "required": true
+    },
+    "HEROKU_POSTGRESQL_AQUA_URL": {
+      "required": true
+    },
+    "HEROKU_POSTGRESQL_PURPLE_URL": {
+      "required": true
     }
   },
   "formation": {
