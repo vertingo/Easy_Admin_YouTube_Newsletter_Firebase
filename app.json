@@ -3,15 +3,11 @@
   "scripts": {},
   "env": 
   {
-    "HEROKU_POSTGRESQL_BLUE_URL": 
+    "HEROKU_POSTGRESQL_AQUA_URL": 
     {
       "required": true
     },
-    "HEROKU_POSTGRESQL_ONYX_URL": 
-    {
-      "required": true
-    },
-    "SYMFONY_ENV": 
+    "HEROKU_POSTGRESQL_PURPLE_URL": 
     {
       "required": true
     }
