@@ -1,6 +1,7 @@
 {
   "name": "EasyAdminSymfony",
   "description": "Platform EasyAdmin Youtube Newsletter ",
+  "stack": "heroku-20",
   "keywords": [
     "Symfony",
     "EasyAdmin"
