@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba19195e6e7ee33f6cf52781f550537a",
+    "content-hash": "5d7412769c679a771bea77c04b34d2dd",
     "packages": [
         {
             "name": "a2lix/auto-form-bundle",
@@ -1929,6 +1929,58 @@
                 }
             ],
             "time": "2023-05-17T18:32:04+00:00"
+        },
+        {
+            "name": "easycorp/easyadmin-bundle",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EasyCorp/EasyAdminBundle.git",
+                "reference": "3b2dd0eb54a78653dd4a196de1a178985d076d03"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EasyCorp/EasyAdminBundle/zipball/3b2dd0eb54a78653dd4a196de1a178985d076d03",
+                "reference": "3b2dd0eb54a78653dd4a196de1a178985d076d03",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": "~2.3",
+                "pagerfanta/pagerfanta": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "JavierEguiluz\\Bundle\\EasyAdminBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Javier Eguiluz",
+                    "email": "javiereguiluz@gmail.com"
+                },
+                {
+                    "name": "Project Contributors",
+                    "homepage": "http://github.com/javiereguiluz/easyadmin/blob/master/CONTRIBUTORS.md"
+                }
+            ],
+            "description": "Admin generator for Symfony applications",
+            "homepage": "https://github.com/javiereguiluz/EasyAdminBundle",
+            "keywords": [
+                "admin",
+                "backend",
+                "generator"
+            ],
+            "support": {
+                "issues": "https://github.com/EasyCorp/EasyAdminBundle/issues",
+                "source": "https://github.com/EasyCorp/EasyAdminBundle/tree/v1.0.3"
+            },
+            "time": "2015-01-18T18:52:48+00:00"
         },
         {
             "name": "eko/feedbundle",
