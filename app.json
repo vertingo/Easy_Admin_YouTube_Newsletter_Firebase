@@ -35,7 +35,7 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "Performance-M"
+      "size": "standard-2x"
     }
   },
   "addons": [
