@@ -1,184 +1,247 @@
 ![Image](https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/vertin_go_website.jpg)
-![Alt text](relative/path/to/image.png)
-
-![Alt text](https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/vertin_go_website.jpg)
-
 
 ### Apporter votre soutien au projet :heart: pour de futures évolutions!
-[![GitHub stars](https://img.shields.io/github/stars/vertingo/screenshott.svg?style=social&label=Star)](https://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase.git) [![GitHub forks](https://img.shields.io/github/forks/vertingo/screenshott.svg?style=social&label=Fork)](http://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/fork) [![GitHub watchers](https://img.shields.io/github/watchers/vertingo/screenshott.svg?style=social&label=Watch)](http://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase) [![GitHub followers](https://img.shields.io/github/followers/vertingo.svg?style=social&label=Follow)](https://github.com/vertingo)
+[![GitHub stars](https://img.shields.io/github/stars/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Star)](https://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app)
+[![GitHub forks](https://img.shields.io/github/forks/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Fork)](http://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Watch)](http://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app)
+[![GitHub followers](https://img.shields.io/github/followers/vertingo.svg?style=social&label=Follow)](https://github.com/vertingo)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Vertin_Go.svg?style=social)](https://twitter.com/Vertin_Go)
 
-# 🌐 Projet Front-Back End Easy_Admin_YouTube_NewsLetter_Firebase![App Progress Status](https://img.shields.io/badge/Status-Finished-0520b7.svg?style=plastic)
+# 🌐 Projet Front-Back End Easy_Admin_YouTube_NewsLetter_Firebase
+![App Progress Status](https://img.shields.io/badge/Status-Finished-0520b7.svg?style=plastic)
 ==================================================================================
-Front: Vertin Go Website Design By Mobirise(http://mobirise.com) + Front File Man
-    
-Back end: Api YouTube + FireBase(Push Notification) + NewsLetters + File Manager
+**Front:** Vertin Go Website Design By Mobirise ([mobirise.com](http://mobirise.com)) + Front File Man
+
+**Back end:** Api YouTube + FireBase (Push Notification) + NewsLetters + File Manager
 
 #### Deploy your own Easy_Admin project on Heroku!
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app)
 
 #### Illustrations
 <p align="center">
     Front-End
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front2.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/file_carousel.gif" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<strong>Ci-dessus tous vos fichiers upload sur le File Manager regroupés sous forme de carousel automatique!</strong>    
-<br>
-================================================================================
-<br>   
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front4.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front5.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front6.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front7.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front8.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front9.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front10.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/front11.png" width="1000" height="400"/></a>
-<br>
-================================================================================
-<br>
-<strong>Ci-dessous un aperçu de la page Playlist Youtube généré automatiquement une fois votre compte synchronisé avec YouTube!</strong>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/playlist_youtube.gif" width="1000" height="300"/></a>
-================================================================================
-<strong>Back-End</strong>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin2.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin2-5.gif" width="1000" height="500"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin2-6.png" width="1000" height="300"/></a>
-<br>
-================================================================================    
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin2-2.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<strong>Données extraites de Google Analytics et mise en forme sous forme de graphique!
-    
-Ci-dessous comment intégrer des données analytics en deux vidéos:
-
-- YouTube Analytics: https://www.youtube.com/watch?v=ZdW62t0K_MU
-- Google Analytics: https://www.youtube.com/watch?v=xaDa4wFqTU8</strong>
-
-================================================================================
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin2-7.png" width="1000" height="300"/></a>
-</p>
-
-<p align="center">
-================================================================================
-<strong>Personnaliser votre Panel Football LiveScore en choississant votre championnat, joueur et club favori!</strong>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin3.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin4.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-    <strong>Google Cloud Messaging pour l'envoi de Notification Push sur une application Mobile!</strong>    
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin5.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin6.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin7.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin7-5.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin8.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin9.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<strong>Pour l'utilisation des Newsletters ne pas oublier d'attribuer la valeur default au champs Mandant de la table FosUser!</strong> 
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin10.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin11.png" width="1000" height="300"/></a>
-<br>
-================================================================================
-<br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/admin12.png" width="1000" height="300"/></a>
-<br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front.png" width="1000" height="300" alt="Front Image 1"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front2.png" width="1000" height="400" alt="Front Image 2"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/file_carousel.gif" width="1000" height="400" alt="File Carousel"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <strong>Ci-dessus tous vos fichiers upload sur le File Manager regroupés sous forme de carousel automatique!</strong>    
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front4.png" width="1000" height="400" alt="Front Image 4"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front5.png" width="1000" height="400" alt="Front Image 5"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front6.png" width="1000" height="400" alt="Front Image 6"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front7.png" width="1000" height="400" alt="Front Image 7"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front8.png" width="1000" height="400" alt="Front Image 8"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front9.png" width="1000" height="400" alt="Front Image 9"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front10.png" width="1000" height="400" alt="Front Image 10"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front11.png" width="1000" height="400" alt="Front Image 11"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <strong>Ci-dessous un aperçu de la page Playlist Youtube généré automatiquement une fois votre compte synchronisé avec YouTube!</strong>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/playlist_youtube.gif" width="1000" height="300" alt="Playlist YouTube"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <strong>Back-End</strong>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin.png" width="1000" height="300" alt="Admin Image 1"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin2.png" width="1000" height="300" alt="Admin Image 2"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin2-5.gif" width="1000" height="500" alt="Admin Image 2-5"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin2-6.png" width="1000" height="300" alt="Admin Image 2-6"/>
+    </a>
+    <br>
+    =================================================================================    
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin2-2.png" width="1000" height="300" alt="Admin Image 2-2"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <strong>Données extraites de Google Analytics et mise en forme sous forme de graphique!</strong>
+    <br>
+    Ci-dessous comment intégrer des données analytics en deux vidéos:
+    - [YouTube Analytics](https://www.youtube.com/watch?v=ZdW62t0K_MU)
+    - [Google Analytics](https://www.youtube.com/watch?v=xaDa4wFqTU8)
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin2-7.png" width="1000" height="300" alt="Admin Image 2-7"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <strong>Personnaliser votre Panel Football LiveScore en choisissant votre championnat, joueur et club favori!</strong>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin3.png" width="1000" height="300" alt="Admin Image 3"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin4.png" width="1000" height="300" alt="Admin Image 4"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <strong>Google Cloud Messaging pour l'envoi de Notifications Push sur une application Mobile!</strong>    
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin5.png" width="1000" height="300" alt="Admin Image 5"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin6.png" width="1000" height="300" alt="Admin Image 6"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin7.png" width="1000" height="300" alt="Admin Image 7"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin7-5.png" width="1000" height="300" alt="Admin Image 7-5"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin8.png" width="1000" height="300" alt="Admin Image 8"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin9.png" width="1000" height="300" alt="Admin Image 9"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <strong>Pour l'utilisation des Newsletters ne pas oublier d'attribuer la valeur default au champ Mandant de la table FosUser!</strong> 
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin10.png" width="1000" height="300" alt="Admin Image 10"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin11.png" width="1000" height="300" alt="Admin Image 11"/>
+    </a>
+    <br>
+    =================================================================================
+    <br>
+    <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+        <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/admin12.png" width="1000" height="300" alt="Admin Image 12"/>
+    </a>
+    <br>
 </p>
 
 #### Installation Localement avec Xampp
 
-Prérequis:
-- *Gestionnaire de commande composer with xampp! ==> https://www.youtube.com/watch?v=v7uCji-WhjY
+**Prérequis:**
+- *Gestionnaire de commande composer with xampp!* ==> [YouTube Video](https://www.youtube.com/watch?v=v7uCji-WhjY)
 
-Une fois xampp installé il faut lancer le serveur apache et mysql illustré ci-dessous:
-Assurer vous que les références à votre base de donnée sont bien renseignés dans 
-parameters.yml.dist et parameters.yml . A priori les valeurs sont déjà correct pour 
-l'environnement de dev! A noter qu'il faut bien distinguer config_dev.yml et 
-config_prod.yml qui comme son nom l'indique sont deux fichiers de config 
-propre à leur environnement dans lequelle l'application évolue! Soit local pour 
-config_dev.yml et en ligne config_prod.yml!
+Une fois xampp installé il faut lancer le serveur Apache et MySQL illustré ci-dessous:
+Assurez-vous que les références à votre base de données sont bien renseignées dans 
+`parameters.yml.dist` et `parameters.yml`. A priori les valeurs sont déjà correctes pour 
+l'environnement de développement! Notez qu'il faut bien distinguer `config_dev.yml` et 
+`config_prod.yml` qui, comme son nom l'indique, sont deux fichiers de configuration 
+propres à leur environnement dans lequel l'application évolue! Soit local pour 
+`config_dev.yml` et en ligne pour `config_prod.yml`!
 
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/xampp.png" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+    <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/xampp.png" width="1000" height="300" alt="XAMPP Setup"/>
+</a>
 <br>
 ================================================================================
 <br>
@@ -186,12 +249,14 @@ config_dev.yml et en ligne config_prod.yml!
 <br>
 ================================================================================
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/phpmyadmin.png" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
+    <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/phpmyadmin.png" width="1000" height="300" alt="PhpMyAdmin"/>
+</a>
 <br>
 ================================================================================
 <br>
-<strong>Une fois vos bases de données recréés elles seront accessibles dans PhpMyAdmin!<br>
-Pour les recréer voir les commandes ci-dessous:</strong>
+<strong>Une fois vos bases de données recréées, elles seront accessibles dans PhpMyAdmin!<br>
+Pour les recréer, voir les commandes ci-dessous:</strong>
 <br>
 ================================================================================
 <br>
