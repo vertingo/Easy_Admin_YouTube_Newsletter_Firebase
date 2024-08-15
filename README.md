@@ -18,7 +18,7 @@
 [![Download zip](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/archive/1.0.2.zip)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
-==================================================================================
+===========================================================================
 **Front:** Vertin Go Website Design By Mobirise ([mobirise.com](http://mobirise.com)) + Front File Man
 
 **Back end:** Api YouTube + FireBase (Push Notification) + NewsLetters + File Manager
