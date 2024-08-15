@@ -6,7 +6,7 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Watch)](http://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app)
 [![GitHub followers](https://img.shields.io/github/followers/vertingo.svg?style=social&label=Follow)](https://github.com/vertingo)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Vertin_Go.svg?style=social)](https://twitter.com/Vertin_Go)
-[![Facebook](https://img.shields.io/badge/Facebook-Vertin Go Website-blue?style=social&logo=facebook)](https://www.facebook.com/Vertin Go Website)
+[![Facebook](https://img.shields.io/badge/Facebook-VertinGoWebsite-blue?style=social&logo=facebook)](https://www.facebook.com/VertinGoWebsite)
 
 
 # 🌐 Projet Front-Back End Easy_Admin_YouTube_NewsLetter_Firebase
