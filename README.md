@@ -2,13 +2,12 @@
 
 ### Apporter votre soutien au projet :heart: pour de futures évolutions!
 [![GitHub stars](https://img.shields.io/github/stars/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Star)](https://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app)
-
-[![GitHub stars](https://img.shields.io/github/stars/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app?style=social)](https://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/stargazers)
-
 [![GitHub forks](https://img.shields.io/github/forks/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Fork)](http://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/fork)
 [![GitHub watchers](https://img.shields.io/github/watchers/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Watch)](http://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app)
 [![GitHub followers](https://img.shields.io/github/followers/vertingo.svg?style=social&label=Follow)](https://github.com/vertingo)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Vertin_Go.svg?style=social)](https://twitter.com/Vertin_Go)
+[![Facebook](https://img.shields.io/badge/Facebook-Vertin Go Website-blue?style=social&logo=facebook)](https://www.facebook.com/Vertin Go Website)
+
 
 # 🌐 Projet Front-Back End Easy_Admin_YouTube_NewsLetter_Firebase
 ![App Progress Status](https://img.shields.io/badge/Status-Finished-0520b7.svg?style=plastic)
