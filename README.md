@@ -302,7 +302,7 @@ web: vendor/bin/heroku-php-apache2 web/
 ```
 <p align="center">    
 Créer une application et récupérer le gestionnaire de commande heroku-cli:
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/heroku-cli.gif" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/heroku-cli.gif" width="1000" height="300"/></a>
 <br>
 ===========================================================================
 <br>
@@ -310,7 +310,7 @@ Créer une application et récupérer le gestionnaire de commande heroku-cli:
 <br>
 ===========================================================================
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/postgre.png" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/postgre.png" width="1000" height="300"/></a>
 <br>
 ===========================================================================
 <br>
@@ -318,7 +318,7 @@ Créer une application et récupérer le gestionnaire de commande heroku-cli:
 <br>
 ===========================================================================
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/postgre2.png" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/postgre2.png" width="1000" height="300"/></a>
 <br>
 ===========================================================================
 <br>
@@ -326,7 +326,7 @@ Créer une application et récupérer le gestionnaire de commande heroku-cli:
 <br>
 ===========================================================================
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/postgre3.png" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/postgre3.png" width="1000" height="300"/></a>
 <br>
 ===========================================================================
 <br>
@@ -334,7 +334,7 @@ Créer une application et récupérer le gestionnaire de commande heroku-cli:
 <br>
 ===========================================================================
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/postgre4.png" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/postgre4.png" width="1000" height="300"/></a>
 <br>
 ===========================================================================
 <br>
@@ -382,7 +382,7 @@ git push heroku master
 ```
 
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/deploiement.gif" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/deploiement.gif" width="1000" height="300"/></a>
 <br>
 </p>
 
@@ -408,7 +408,7 @@ Suppléments de configuration pour la connexion à YouTube et Google Analytics:
 
 Créer un projet dans Google Cloud Console! Activer YouTube Data Api V3
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/google cloud console.png" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/google cloud console.png" width="1000" height="300"/></a>
 <br>
 ===========================================================================
 <br>
@@ -416,7 +416,7 @@ Créer un projet dans Google Cloud Console! Activer YouTube Data Api V3
 <br>
 ===========================================================================
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/google cloud console2.png" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/google cloud console2.png" width="1000" height="300"/></a>
 <br>
 </p>
 
@@ -437,7 +437,7 @@ Une fois la clé créé copier coller cette clé puis renseigné la dans le doss
   
 <p align="center">
 Ci-dessous la page Playlist Youtube généré une fois synchronisé avec YouTube!
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/playlist_youtube.gif" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/playlist_youtube.gif" width="1000" height="300"/></a>
 </p>
 
 ####  Google Analytics - Demo & Tools
@@ -580,9 +580,9 @@ Tester l'application Mobile avec l'email et le mot de passe suivant afin de visi
     <li>Mot de passe: default_user</li>
 </ul></center>
 <p align="center">
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/topsiteapp_demo.gif" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/topsiteapp_demo.gif" width="1000" height="300"/></a>
 <br>
-<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/Disponible-sur-App-Store-Logo.jpg" width="1000" height="300"/></a>
+<a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/Disponible-sur-App-Store-Logo.jpg" width="1000" height="300"/></a>
 ===========================================================================
 </p>
 
