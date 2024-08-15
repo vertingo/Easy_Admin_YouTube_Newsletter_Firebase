@@ -7,6 +7,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/vertingo.svg?style=social&label=Follow)](https://github.com/vertingo)
 [![Twitter Follow](https://img.shields.io/twitter/follow/vertin_go.svg?style=social)](https://twitter.com/vertin_go)
 [![Facebook](https://img.shields.io/badge/Facebook-vertingo-blue?style=social&logo=facebook)](https://www.facebook.com/vertingo)
+[![YouTube Subscribe](https://img.shields.io/youtube/channel/subscribers/UC2g_-ipVjit6ZlACPWG4JvA?style=social)](https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1)
 
 
 # 🌐 Projet Front-Back End Easy_Admin_YouTube_NewsLetter_Firebase
