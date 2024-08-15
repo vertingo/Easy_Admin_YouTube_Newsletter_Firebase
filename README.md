@@ -141,8 +141,9 @@
     <strong>Données extraites de Google Analytics et mise en forme sous forme de graphique!</strong>
     <br>
     Ci-dessous comment intégrer des données analytics en deux vidéos:
-    - [YouTube Analytics](https://www.youtube.com/watch?v=ZdW62t0K_MU)
-    - [Google Analytics](https://www.youtube.com/watch?v=xaDa4wFqTU8)
+    <br>
+    - [YouTube Analytics](https://www.youtube.com/watch?v=ZdW62t0K_MU)<br>
+    - [Google Analytics](https://www.youtube.com/watch?v=xaDa4wFqTU8)<br>
     <br>
     ===========================================================================
     <br>
