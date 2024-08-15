@@ -1,4 +1,9 @@
 ![Image](https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/vertin_go_website.jpg)
+![Alt text](relative/path/to/image.png)
+
+![Alt text](https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/vertin_go_website.jpg)
+
+
 ### Apporter votre soutien au projet :heart: pour de futures évolutions!
 [![GitHub stars](https://img.shields.io/github/stars/vertingo/screenshott.svg?style=social&label=Star)](https://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase.git) [![GitHub forks](https://img.shields.io/github/forks/vertingo/screenshott.svg?style=social&label=Fork)](http://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/fork) [![GitHub watchers](https://img.shields.io/github/watchers/vertingo/screenshott.svg?style=social&label=Watch)](http://github.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase) [![GitHub followers](https://img.shields.io/github/followers/vertingo.svg?style=social&label=Follow)](https://github.com/vertingo)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Vertin_Go.svg?style=social)](https://twitter.com/Vertin_Go)
