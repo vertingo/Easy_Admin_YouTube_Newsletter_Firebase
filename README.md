@@ -5,7 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Fork)](http://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/fork)
 [![GitHub watchers](https://img.shields.io/github/watchers/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app.svg?style=social&label=Watch)](http://github.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app)
 [![GitHub followers](https://img.shields.io/github/followers/vertingo.svg?style=social&label=Follow)](https://github.com/vertingo)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Vertin_Go.svg?style=social)](https://twitter.com/Vertin_Go)
+[![Twitter Follow](https://img.shields.io/twitter/follow/vertin_go.svg?style=social)](https://twitter.com/vertin_go)
 [![Facebook](https://img.shields.io/badge/Facebook-vertingo-blue?style=social&logo=facebook)](https://www.facebook.com/vertingo)
 
 
