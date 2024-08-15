@@ -39,7 +39,7 @@ jobs:
           ./bin/console cache:clear --no-warmup
 
       - name: Deploy
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
         run: |
           echo "Deploying to production server..."
           # Add your deployment script or commands here
