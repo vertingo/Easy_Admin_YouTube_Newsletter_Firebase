@@ -19,10 +19,10 @@
 
 #### Illustrations
 <p align="center">
-    =================================================================================
+    ===========================================================================
     <br>
     <strong>Back-End</strong>
-    =================================================================================
+    ===========================================================================
     <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
         <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front.png" width="1000" height="300" alt="Front Image 1"/>
     </a>
@@ -246,22 +246,22 @@ propres à leur environnement dans lequel l'application évolue! Soit local pour
     <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/xampp.png" width="1000" height="300" alt="XAMPP Setup"/>
 </a>
 <br>
-================================================================================
+===========================================================================
 <br>
 <strong>Cliquer sur admin pour accéder à l'interface PhpMyAdmin:</strong>
 <br>
-================================================================================
+===========================================================================
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
     <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/phpmyadmin.png" width="1000" height="300" alt="PhpMyAdmin"/>
 </a>
 <br>
-================================================================================
+===========================================================================
 <br>
 <strong>Une fois vos bases de données recréées, elles seront accessibles dans PhpMyAdmin!<br>
 Pour les recréer, voir les commandes ci-dessous:</strong>
 <br>
-================================================================================
+===========================================================================
 <br>
 </p>
 
@@ -280,7 +280,7 @@ Page de login de l'admin interface ==> http://localhost/symfony-easyadmin-heroku
 
 Page de front interface ==> http://localhost/symfony-easyadmin-heroku/web/app_dev.php/vertingo-website-introduction
 ```
-================================================================================
+===========================================================================
 
 #### How to deploy on Heroku
 Prérequis avant la phase de déploiement:
@@ -302,39 +302,39 @@ web: vendor/bin/heroku-php-apache2 web/
 Créer une application et récupérer le gestionnaire de commande heroku-cli:
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/heroku-cli.gif" width="1000" height="300"/></a>
 <br>
-================================================================================
+===========================================================================
 <br>
 <strong>Ajouter une extension PostgreSQL pour la persistance des données:</strong>
 <br>
-================================================================================
+===========================================================================
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/postgre.png" width="1000" height="300"/></a>
 <br>
-================================================================================
+===========================================================================
 <br>
 <strong>Cliquer sur votre extension dans le sous menu du champs recherche:</strong>
 <br>
-================================================================================
+===========================================================================
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/postgre2.png" width="1000" height="300"/></a>
 <br>
-================================================================================
+===========================================================================
 <br>
 <strong>Cliquer ensuite sur settings:</strong>
 <br>
-================================================================================
+===========================================================================
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/postgre3.png" width="1000" height="300"/></a>
 <br>
-================================================================================
+===========================================================================
 <br>
 <strong>Cliquer sur view credentials:</strong>
 <br>
-================================================================================
+===========================================================================
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/postgre4.png" width="1000" height="300"/></a>
 <br>
-================================================================================
+===========================================================================
 <br>
 Les différents champs doivent être ajouter dans le parameters.yml et parameters.yml.dist dans app/config dans les variables d'environnements prod donc database_host_prod. Pour database_host_mandanta et b il faut ajouter une fois de plus la même 
 extension postgre! Il faut également préciser la variable d'environnement database url dans composer.json disponible une fois 
@@ -352,7 +352,7 @@ l'ajout de l'extension PostgreSQL effectué:
     }
     }
 ```
-================================================================================
+===========================================================================
 <br>
 
 Commande de Déploiement:
@@ -400,7 +400,7 @@ Page de login de l'admin interface ==> https://platform-media.herokuapp.com/logi
 
 Page de front interface ==> https://platform-media.herokuapp.com/vertingo-website-introduction
 ```
-================================================================================
+===========================================================================
 <br>
 Suppléments de configuration pour la connexion à YouTube et Google Analytics:
 
@@ -408,11 +408,11 @@ Créer un projet dans Google Cloud Console! Activer YouTube Data Api V3
 <p align="center">
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/google cloud console.png" width="1000" height="300"/></a>
 <br>
-================================================================================
+===========================================================================
 <br>
 <strong>Cliquer sur créer des identifiants Id Client Auth</strong>
 <br>
-================================================================================
+===========================================================================
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/google cloud console2.png" width="1000" height="300"/></a>
 <br>
@@ -560,7 +560,7 @@ https://ga-dev-tools.appspot.com/embed-api/basic-dashboard/
 
 and also don't forget to activate the Analytics API in Google Cloud Console!
 
-================================================================================
+===========================================================================
 
 #### Synchroniser avec l'application mobile!
 <a href="https://github.com/vertingo/TopSiteApp_Media" target="_blank">Synchroniser l'application Mobile avec la Platform Media!</a> 
@@ -581,7 +581,7 @@ Tester l'application Mobile avec l'email et le mot de passe suivant afin de visi
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/topsiteapp_demo.gif" width="1000" height="300"/></a>
 <br>
 <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/Disponible-sur-App-Store-Logo.jpg" width="1000" height="300"/></a>
-================================================================================
+===========================================================================
 </p>
 
 Symfony starter project using:
@@ -657,7 +657,7 @@ The command generate a scss file in ``./front/scss/typography/_iconfont.scss``.
 npm run iconfont
 ```
 
-================================================================================
+===========================================================================
 <p align="center">
   <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase/master/web/assets/images/reseaux-sociaux/youtube2.png" width="400" height="250"/></a>
   <a href="https://www.facebook.com/vertingo/"><img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase/master/web/assets/images/reseaux-sociaux/rejoins_nous.png" width="400" height="250"/></a>
