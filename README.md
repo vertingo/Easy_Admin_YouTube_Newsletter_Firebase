@@ -19,12 +19,15 @@
 
 #### Illustrations
 <p align="center">
-    Front-End
+    =================================================================================
+    <br>
+    <strong>Back-End</strong>
+    =================================================================================
     <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
         <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front.png" width="1000" height="300" alt="Front Image 1"/>
     </a>
     <br>
-    =================================================================================
+    ===========================================================================
     <br>
     <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1">
         <img src="https://raw.githubusercontent.com/vertingo/easy-admin-youtube-newsletter-firebase-symfony-app/master/web/assets/images/github/front2.png" width="1000" height="400" alt="Front Image 2"/>
