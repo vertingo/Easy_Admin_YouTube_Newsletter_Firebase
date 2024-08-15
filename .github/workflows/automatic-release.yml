@@ -36,7 +36,7 @@ jobs:
       - uses: fregante/release-with-changelog@v3
         id: release-with-changelog
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GIT_PAT_TOKEN }}
           exclude: '^meta|^docs|^document|^lint|^ci|^refactor|readme|workflow|bump|dependencies|yml|^v?\d+\.\d+\.\d+'
           tag: ${{ steps.next-tag.outputs.tag }}
           title: 'Version ${{ steps.next-tag.outputs.tag }}'
@@ -58,8 +58,8 @@ jobs:
       - name: Readme Download Button Action
         if: ${{ steps.release-with-changelog.outputs.skipped == 'false' }}
         env:
-          GITHUB_USER: "DenverCoder1"
-          REPO: "readme-download-button-action"
+          GITHUB_USER: "vertingo"
+          REPO: "easy-admin-youtube-newsletter-firebase-symfony-app"
           FORMAT: "zip"
           VERSION: "${{ steps.next-tag.outputs.tag }}"
           COLOR: "blue"
